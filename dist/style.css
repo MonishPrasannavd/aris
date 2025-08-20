@@ -35,7 +35,7 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -54,8 +54,88 @@ body {
 }
 
 .footer-bg {
-  background:url('../Images/homepage/footerbg.webp');
+  background: url('../Images/homepage/footerbg.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.team-container .swiper-wrapper,
+.clients-swiper .swiper-wrapper {
+  transition-timing-function: ease-in-out !important;
+}
+
+.ticker {
+  overflow: hidden;
+  position: relative;
+}
+
+.ticker-mask {
+  -webkit-mask-image: linear-gradient(90deg,
+      transparent,
+      #000 10%,
+      #000 90%,
+      transparent);
+  mask-image: linear-gradient(90deg,
+      transparent,
+      #000 10%,
+      #000 90%,
+      transparent);
+}
+
+.ticker__inner {
+  display: flex;
+  width: max-content;
+  animation: ticker-scroll 28s linear infinite;
+}
+
+.ticker__track {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 0 1rem;
+}
+
+@keyframes ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+#backToTop.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.background-shape {
+  position: relative;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 40%, 15% 40%, 15% 0, 85% 0%, 100% 0, 100% 15%, 100% 60.5%, 85% 60.5%, 85% 100%, 15% 100%, 0 100%, 0% 85%);
+}
+
+@media (max-width:899px) {
+
+  .background-shape {
+    clip-path: polygon(0 40.5%, 25% 40.5%, 25% 0, 85% 0%, 100% 0, 100% 15%, 100% 59.5%, 75% 59.5%, 75% 100%, 15% 100%, 0 100%, 0% 85%);
+  }
+}
+
+@media (max-width: 640px) {
+  .background-shape {
+    clip-path: none;
+    max-height: 250px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .background-shape img {
+    border-radius: 25px;
+  }
 }
