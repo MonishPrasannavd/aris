@@ -108,3 +108,38 @@
       backToTopBtn.addEventListener("click", () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
       });
+
+      // Accordion functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const accordionTriggers = document.querySelectorAll('.accordion-trigger');
+        
+        accordionTriggers.forEach(trigger => {
+          trigger.addEventListener('click', function() {
+            const content = this.nextElementSibling;
+            const icon = this.querySelector('.accordion-icon');
+            const isExpanded = this.getAttribute('aria-expanded') === 'true';
+            
+            // Close all other accordion items
+            accordionTriggers.forEach(otherTrigger => {
+              if (otherTrigger !== this) {
+                const otherContent = otherTrigger.nextElementSibling;
+                const otherIcon = otherTrigger.querySelector('.accordion-icon');
+                otherTrigger.setAttribute('aria-expanded', 'false');
+                otherContent.classList.add('hidden');
+                otherIcon.classList.remove('rotate-180');
+              }
+            });
+            
+            // Toggle current item
+            if (isExpanded) {
+              this.setAttribute('aria-expanded', 'false');
+              content.classList.add('hidden');
+              icon.classList.remove('rotate-180');
+            } else {
+              this.setAttribute('aria-expanded', 'true');
+              content.classList.remove('hidden');
+              icon.classList.add('rotate-180');
+            }
+          });
+        });
+      });
