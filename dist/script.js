@@ -91,24 +91,6 @@
         mobileProductsDropdown.classList.toggle("hidden");
       });
 
-      // Back to top button logic
-      const backToTopBtn = document.getElementById("backToTop");
-      const showOnPx = 250;
-      function toggleBackToTopVisibility() {
-        if (window.scrollY > showOnPx) {
-          backToTopBtn.classList.add("show");
-        } else {
-          backToTopBtn.classList.remove("show");
-        }
-      }
-      window.addEventListener("scroll", toggleBackToTopVisibility, {
-        passive: true,
-      });
-      toggleBackToTopVisibility();
-      backToTopBtn.addEventListener("click", () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      });
-
       // Accordion functionality
       document.addEventListener('DOMContentLoaded', function() {
         const accordionTriggers = document.querySelectorAll('.accordion-trigger');
