@@ -97,6 +97,14 @@
         <div id="offcanvas" class="fixed inset-0 bg-black bg-opacity-40 z-30 hidden">
             <div class="fixed top-0 left-0 w-64 h-full bg-white shadow-lg p-6 flex flex-col space-y-6 transform -translate-x-full transition-transform duration-300"
                 id="offcanvas-menu">
+                <!-- Close Button -->
+                <div class="flex justify-end items-center mb-4">
+                    <button id="close-btn" class="text-gray-600 hover:text-gray-800 focus:outline-none" aria-label="Close Menu">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
                 <div class="flex justify-between items-center mb-8">
                     <!-- <img src="logo.png" alt="ARSI Logo" class="h-10 w-auto" /> -->
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="267"
@@ -112,12 +120,12 @@
                             fill="url(#pattern)" />
                     </svg>
 
-                    <a href="contact.html"
+                    <!-- <a href="contact.html"
                         class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-8 rounded-lg flex items-center transition mt-4">
                         Any Query <i class="bi bi-arrow-right ms-2 font-bold mt-1"></i>
-                    </a>
+                    </a> -->
                 </div>
-                <a href="#" class="font-bold text-violet-600">Home</a>
+                <a href="index.html" class="font-bold text-violet-600">Home</a>
                 <div class="relative" id="mobile-services-group">
                     <button class="font-bold flex items-center text-gray-900 focus:outline-none w-full justify-between"
                       id="mobile-services-btn">
@@ -954,6 +962,56 @@
     </footer>
     <!-- Footer End -->
 
+    <script>
+        // Offcanvas menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.getElementById("menu-btn");
+            const offcanvas = document.getElementById("offcanvas");
+            const offcanvasMenu = document.getElementById("offcanvas-menu");
+            const closeBtn = document.getElementById("close-btn");
+
+            if (menuBtn && offcanvas && offcanvasMenu && closeBtn) {
+                menuBtn.addEventListener("click", () => {
+                    offcanvas.classList.remove("hidden");
+                    setTimeout(() => {
+                        offcanvasMenu.classList.remove("-translate-x-full");
+                    }, 10);
+                });
+
+                closeBtn.addEventListener("click", () => {
+                    offcanvasMenu.classList.add("-translate-x-full");
+                    setTimeout(() => {
+                        offcanvas.classList.add("hidden");
+                    }, 300);
+                });
+
+                // Close offcanvas when clicking outside the menu
+                offcanvas.addEventListener("click", (e) => {
+                    if (e.target === offcanvas) {
+                        offcanvasMenu.classList.add("-translate-x-full");
+                        setTimeout(() => {
+                            offcanvas.classList.add("hidden");
+                        }, 300);
+                    }
+                });
+            }
+        });
+    </script>
+
 </body>
+
+    <script>
+        // Mobile services dropdown toggle (offcanvas)
+        (function() {
+            const mobileServicesBtn = document.getElementById("mobile-services-btn");
+            const mobileServicesDropdown = document.getElementById("mobile-services-dropdown");
+            if (mobileServicesBtn && mobileServicesDropdown) {
+                mobileServicesBtn.addEventListener("click", function(e) {
+                    e.preventDefault();
+                    mobileServicesDropdown.classList.toggle("hidden");
+                });
+            }
+        })();
+    </script>
 
 </html>
