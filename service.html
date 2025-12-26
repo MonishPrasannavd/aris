@@ -18,7 +18,7 @@
             <div class="flex justify-between items-center h-[5rem] bg-white">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
-                    <!-- <img src="logo.png" alt="ARSI Logo" class="h-12 w-auto mr-2" /> -->
+                    <!-- <img src="logo.webp" alt="ARSI Logo" class="h-12 w-auto mr-2" /> -->
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200"
                         height="30" viewBox="0 0 267 35">
                         <defs>
@@ -35,36 +35,100 @@
                 <!-- Center Nav -->
                 <div class="hidden lg:flex flex-1 justify-center">
                     <div class="bg-white border border-gray-200 rounded-full px-8 py-3 flex space-x-10 shadow-sm">
-                        <a href="index.html" class="font-bold text-gray-900 mt-[0.1rem]">Home</a>
+                        <a href="index.html" class="font-bold text-gray-600 mt-[0.1rem]">Home</a>
                         <div class="relative group">
-                            <a href="service.html" class="font-bold flex items-center text-violet-600 focus:outline-none">
+                            <a href="service.html"
+                                class="font-bold flex items-center text-violet-600 focus:outline-none">
                                 Services
-                                <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
+                                <i class="bi bi-caret-down-fill ms-2 mt-1 text-violet-600"></i>
                             </a>
                             <div
-                                class="absolute left-0 top-full pt-1 w-64 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200 z-40">
-                                <a href="managed_services.html"
-                                    class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Managed services</a>
-                                <a href="advisory_services.html" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Advisory /
-                                    Consulting</a>
-                                <a href="automation_services.html" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Automation</a>
-                                <a href="tax_services.html" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Tax (Tax compliance
-                                    & Tax Planning)</a>
+                                class="absolute left-0 top-full pt-1 w-64 bg-white border border-gray-200 rounded-lg  shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200 z-40">
+                                <div class="relative group/nested">
+                                    <p
+                                        class="flex items-center justify-between px-6 py-3 text-gray-900 hover:bg-gray-100">
+                                        Managed services <i class="bi bi-caret-right-fill text-gray-600"></i>
+                                    </p>
+                                    <div
+                                        class="absolute left-full top-0 w-64 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 invisible group-hover/nested:opacity-100 group-hover/nested:visible transition-opacity duration-200 z-50">
+                                        <a href="accounting_outsourcing.html"
+                                            class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Accounting
+                                            Outsourcing</a>
+                                        <a href="payroll_outsourcing.html"
+                                            class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Payroll
+                                            Outsourcing</a>
+                                    </div>
+                                </div>
+
+                                <div class="relative group/nested">
+                                    <p
+                                        class="flex items-center justify-between px-6 py-3 text-gray-600 hover:bg-gray-100">
+                                        Advisory / Consulting <i class="bi bi-caret-right-fill text-g-600"></i>
+                                    </p>
+                                    <div
+                                        class="absolute left-full top-0 w-64 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 invisible group-hover/nested:opacity-100 group-hover/nested:visible transition-opacity duration-200 z-50">
+                                        <a href="financial_reporting.html"
+                                            class="block px-6 py-3 text-g-600 hover:bg-gray-100">Financial
+                                            Reporting</a>
+                                        <a href="virtual_cfo.html"
+                                            class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Virtual CFO</a>
+                                        <a href="business_consulting.html"
+                                            class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Business
+                                            Consulting</a>
+                                    </div>
+                                </div>
+                                <div class="relative group/nested">
+                                    <p
+                                        class="flex items-center justify-between px-6 py-3 text-gray-600 hover:bg-gray-100">
+                                        Automation <i class="bi bi-caret-right-fill text-gray-600"></i>
+                                    </p>
+                                    <div
+                                        class="absolute left-full top-0 w-64 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 invisible group-hover/nested:opacity-100 group-hover/nested:visible transition-opacity duration-200 z-50">
+                                        <a href="erp.html" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">ERP
+                                            Implementation</a>
+                                        <a href="hrms.html" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">HRMS
+                                            Implementation</a>
+                                        <a href="crm.html" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">CRM
+                                            Implementation</a>
+                                        <a href="yapp.html"
+                                            class="block px-6 py-3 text-gray-900 hover:bg-gray-100">YAPP-Your Automation
+                                            Pain Point</a>
+                                    </div>
+                                </div>
+                                <div class="relative group/nested">
+                                    <p
+                                        class="flex items-center justify-between px-6 py-3 text-gray-900 hover:bg-gray-100">
+                                        Tax (Tax compliance & Tax Planning) <i
+                                            class="bi bi-caret-right-fill text-gray-600"></i>
+                                    </p>
+                                    <div
+                                        class="absolute left-full top-0 w-64 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 invisible group-hover/nested:opacity-100 group-hover/nested:visible transition-opacity duration-200 z-50">
+                                        <a href="tax_compliance.html"
+                                            class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Tax Compliance
+                                            & Tax Advisory Services</a>
+                                        <a href="transaction_advisory.html"
+                                            class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Transaction
+                                            Advisory</a>
+                                        <a href="digitsation.html"
+                                            class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Digitsation- E
+                                            Records</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!-- <div class="relative group">
-                  <button class="font-bold flex items-center text-gray-900 focus:outline-none">
-                    Products
-                    <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
-                  </button>
-                  <div
-                    class="absolute left-0 top-full pt-1 w-48 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200 z-40">
-                    <a href="#" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Product A</a>
-                    <a href="#" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Product B</a>
-                    <a href="#" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Product C</a>
-                  </div>
-                </div> -->
-                        <a href="team.html" class="font-bold text-gray-900 mt-[0.1rem]">Our Team</a>
+                        <button class="font-bold flex items-center text-gray-900 focus:outline-none">
+                            Products
+                            <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
+                        </button>
+                        <div
+                            class="absolute left-0 top-full pt-1 w-48 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200 z-40">
+                            <a href="#" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Product A</a>
+                            <a href="#" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Product B</a>
+                            <a href="#" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Product C</a>
+                        </div>
+                    </div> -->
+                        <a href="team.html" class="font-bold text-gray-600 mt-[0.1rem]">Our Team</a>
                         <!-- <a href="#" class="font-bold text-gray-900">Contact Us</a> -->
                     </div>
                 </div>
@@ -90,18 +154,20 @@
         </div>
         <!-- Offcanvas Menu -->
         <div id="offcanvas" class="fixed inset-0 bg-black bg-opacity-40 z-30 hidden">
-            <div class="fixed top-0 left-0 w-64 h-full bg-white shadow-lg p-6 flex flex-col space-y-6 transform -translate-x-full transition-transform duration-300"
+            <div class="fixed top-0 left-0 w-90 h-full bg-white shadow-lg p-6 flex flex-col space-y-6 transform -translate-x-full transition-transform duration-300 overflow-auto"
                 id="offcanvas-menu">
                 <!-- Close Button -->
                 <div class="flex justify-end items-center mb-4">
-                    <button id="close-btn" class="text-gray-600 hover:text-gray-800 focus:outline-none" aria-label="Close Menu">
+                    <button id="close-btn" class="text-gray-600 hover:text-gray-800 focus:outline-none"
+                        aria-label="Close Menu">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12"></path>
                         </svg>
                     </button>
                 </div>
                 <div class="flex justify-between items-center mb-8">
-                    <!-- <img src="logo.png" alt="ARSI Logo" class="h-10 w-auto" /> -->
+                    <!-- <img src="logo.webp" alt="ARSI Logo" class="h-10 w-auto" /> -->
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="267"
                         height="35" viewBox="0 0 267 35">
                         <defs>
@@ -120,20 +186,60 @@
                         Any Query <i class="bi bi-arrow-right ms-2 font-bold mt-1"></i>
                     </a> -->
                 </div>
-                <a href="index.html" class="font-bold text-violet-600">Home</a>
+                <a href="index.html" class="font-bold text-gray-600">Home</a>
                 <div class="relative" id="mobile-services-group">
-                    <button class="font-bold flex items-center text-gray-900 focus:outline-none w-full justify-between"
-                      id="mobile-services-btn">
-                      Services
-                      <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
+                    <button class="font-bold flex items-center text-violet-600 focus:outline-none w-full justify-between"
+                        id="mobile-services-btn">
+                        Services
+                        <i class="bi bi-caret-down-fill ms-2 mt-1 text-violet-600"></i>
                     </button>
                     <div class="hidden flex-col space-y-2 mt-2 pl-4" id="mobile-services-dropdown">
-                      <a href="managed_services.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Managed services</a>
-                      <a href="advisory_services.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Advisory / Consulting</a>
-                      <a href="automation_services.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Automation</a>
-                      <a href="tax_services.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Tax (Tax compliance & Tax Planning)</a>
+                        <div class="relative">
+                            <button class="font-bold flex items-center text-gray-900 focus:outline-none w-full justify-between mobile-nested-dropdown-btn">
+                                Managed services
+                                <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
+                            </button>
+                            <div class="hidden flex-col space-y-2 mt-2 pl-4 mobile-nested-dropdown">
+                                <a href="accounting_outsourcing.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Accounting Outsourcing</a>
+                                <a href="payroll_outsourcing.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Payroll Outsourcing</a>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <button class="font-bold flex items-center text-gray-900 focus:outline-none w-full justify-between mobile-nested-dropdown-btn">
+                                Advisory / Consulting
+                                <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
+                            </button>
+                            <div class="hidden flex-col space-y-2 mt-2 pl-4 mobile-nested-dropdown">
+                                <a href="financial_reporting.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Financial Reporting</a>
+                                <a href="virtual_cfo.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Virtual CFO</a>
+                                <a href="business_consulting.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Business Consulting</a>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <button class="font-bold flex items-center text-gray-900 focus:outline-none w-full justify-between mobile-nested-dropdown-btn">
+                                Automation
+                                <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
+                            </button>
+                            <div class="hidden flex-col space-y-2 mt-2 pl-4 mobile-nested-dropdown">
+                                <a href="erp.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">ERP Implementation</a>
+                                <a href="hrms.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">HRMS Implementation</a>
+                                <a href="crm.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">CRM Implementation</a>
+                                <a href="yapp.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">YAPP-Your Automation Pain Point</a>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <button class="font-bold flex items-center text-gray-900 focus:outline-none w-full justify-between mobile-nested-dropdown-btn">
+                                Tax (Tax compliance & Tax Planning)
+                                <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
+                            </button>
+                            <div class="hidden flex-col space-y-2 mt-2 pl-4 mobile-nested-dropdown">
+                                <a href="tax_compliance.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Tax Compliance & Tax Advisory Services</a>
+                                <a href="transaction_advisory.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Transaction Advisory</a>
+                                <a href="digitsation.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Digitsation- E Records</a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
                 <!-- <div class="relative" id="mobile-products-group">
                     <button class="font-bold flex items-center text-gray-900 focus:outline-none w-full justify-between"
                         id="mobile-products-btn">
@@ -427,8 +533,9 @@
                         <li class="text-white/80"><a href="managed_services.html">Managed services</a></li>
                         <li class="text-white/80"><a href="advisory_services.html">Advisory / Consulting</a></li>
                         <li class="text-white/80"><a href="automation_services.html">Automation</a></li>
-                        <li class="text-white/80"><a href="tax_services.html">Tax (Tax compliance & Tax Planning)</a></li>
-                        
+                        <li class="text-white/80"><a href="tax_services.html">Tax (Tax compliance & Tax Planning)</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -456,7 +563,7 @@
 
     <script>
         // Offcanvas menu functionality
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const menuBtn = document.getElementById("menu-btn");
             const offcanvas = document.getElementById("offcanvas");
             const offcanvasMenu = document.getElementById("offcanvas-menu");
@@ -489,17 +596,26 @@
             }
         });
     </script>
-    <script>
+     <script>
         // Mobile services dropdown toggle (offcanvas)
-        (function() {
+        (function () {
             const mobileServicesBtn = document.getElementById("mobile-services-btn");
             const mobileServicesDropdown = document.getElementById("mobile-services-dropdown");
             if (mobileServicesBtn && mobileServicesDropdown) {
-                mobileServicesBtn.addEventListener("click", function(e) {
+                mobileServicesBtn.addEventListener("click", function (e) {
                     e.preventDefault();
                     mobileServicesDropdown.classList.toggle("hidden");
                 });
             }
+
+            const nestedDropdownBtns = document.querySelectorAll(".mobile-nested-dropdown-btn");
+            nestedDropdownBtns.forEach(btn => {
+                btn.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    const dropdown = btn.nextElementSibling;
+                    dropdown.classList.toggle("hidden");
+                });
+            });
         })();
     </script>
 </body>
