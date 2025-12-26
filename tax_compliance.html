@@ -12,13 +12,14 @@
 </head>
 
 <body>
+
     <!-- Responsive Navbar Start -->
     <nav class="bg-white sticky w-full z-[999] top-0 left-0 shadow-lg">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-[5rem] bg-white">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
-                    <!-- <img src="logo.png" alt="ARSI Logo" class="h-12 w-auto mr-2" /> -->
+                    <!-- <img src="logo.webp" alt="ARSI Logo" class="h-12 w-auto mr-2" /> -->
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200"
                         height="30" viewBox="0 0 267 35">
                         <defs>
@@ -35,35 +36,36 @@
                 <!-- Center Nav -->
                 <div class="hidden lg:flex flex-1 justify-center">
                     <div class="bg-white border border-gray-200 rounded-full px-8 py-3 flex space-x-10 shadow-sm">
-                        <a href="index.html" class="font-bold text-gray-900 mt-[0.1rem]">Home</a>
+                        <a href="index.html" class="font-bold text-gray-600 mt-[0.1rem]">Home</a>
                         <div class="relative group">
-                            <a href="service.html" class="font-bold flex items-center text-violet-600 focus:outline-none">
+                            <a href="service.html"
+                                class="font-bold flex items-center text-violet-600 focus:outline-none">
                                 Services
                                 <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
                             </a>
                             <div
                                 class="absolute left-0 top-full pt-1 w-64 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200 z-40">
                                 <a href="managed_services.html"
-                                    class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Managed services</a>
+                                    class="block px-6 py-3 hover:bg-gray-100">Managed services</a>
                                 <a href="advisory_services.html" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Advisory /
                                     Consulting</a>
                                 <a href="automation_services.html" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Automation</a>
-                                <a href="tax_services.html" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Tax (Tax compliance
+                                <a href="tax_services.html" class="block px-6 py-3 text-violet-600 hover:bg-gray-100">Tax (Tax compliance
                                     & Tax Planning)</a>
                             </div>
                         </div>
                         <!-- <div class="relative group">
-                  <button class="font-bold flex items-center text-gray-900 focus:outline-none">
-                    Products
-                    <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
-                  </button>
-                  <div
-                    class="absolute left-0 top-full pt-1 w-48 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200 z-40">
-                    <a href="#" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Product A</a>
-                    <a href="#" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Product B</a>
-                    <a href="#" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Product C</a>
-                  </div>
-                </div> -->
+                            <button class="font-bold flex items-center text-gray-900 focus:outline-none">
+                                Products
+                                <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
+                            </button>
+                            <div
+                                class="absolute left-0 top-full pt-1 w-48 bg-white border border-gray-200 rounded-lg shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200 z-40">
+                                <a href="#" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Product A</a>
+                                <a href="#" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Product B</a>
+                                <a href="#" class="block px-6 py-3 text-gray-900 hover:bg-gray-100">Product C</a>
+                            </div>
+                        </div> -->
                         <a href="team.html" class="font-bold text-gray-900 mt-[0.1rem]">Our Team</a>
                         <!-- <a href="#" class="font-bold text-gray-900">Contact Us</a> -->
                     </div>
@@ -101,7 +103,7 @@
                     </button>
                 </div>
                 <div class="flex justify-between items-center mb-8">
-                    <!-- <img src="logo.png" alt="ARSI Logo" class="h-10 w-auto" /> -->
+                    <!-- <img src="logo.webp" alt="ARSI Logo" class="h-10 w-auto" /> -->
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="267"
                         height="35" viewBox="0 0 267 35">
                         <defs>
@@ -123,17 +125,20 @@
                 <a href="index.html" class="font-bold text-violet-600">Home</a>
                 <div class="relative" id="mobile-services-group">
                     <button class="font-bold flex items-center text-gray-900 focus:outline-none w-full justify-between"
-                      id="mobile-services-btn">
-                      Services
-                      <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
+                        id="mobile-services-btn">
+                        Services
+                        <i class="bi bi-caret-down-fill ms-2 mt-1 text-[#BCB1FA]"></i>
                     </button>
                     <div class="hidden flex-col space-y-2 mt-2 pl-4" id="mobile-services-dropdown">
-                      <a href="managed_services.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Managed services</a>
-                      <a href="advisory_services.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Advisory / Consulting</a>
-                      <a href="automation_services.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Automation</a>
-                      <a href="tax_services.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Tax (Tax compliance & Tax Planning)</a>
+                        <a href="managed_services.html"
+                            class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Managed services</a>
+                        <a href="advisory_services.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Advisory /
+                            Consulting</a>
+                        <a href="automation_services.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Automation</a>
+                        <a href="tax_services.html" class="block text-gray-900 hover:bg-gray-100 rounded px-2 py-2">Tax (Tax compliance
+                            & Tax Planning)</a>
                     </div>
-                  </div>
+                </div>
                 <!-- <div class="relative" id="mobile-products-group">
                     <button class="font-bold flex items-center text-gray-900 focus:outline-none w-full justify-between"
                         id="mobile-products-btn">
@@ -156,126 +161,895 @@
         </div>
     </nav>
 
-
-
-
-    <!-- Services: Hero -->
-    <section id="services-hero" class="relative bg-white py-5 lg:py-14">
-        <div class="max-w-8xl mx-auto px-4 lg:px-20">
-            <!-- Header Area -->
-            <div class="text-center mb-8 flex flex-col items-center">
-                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-4">Our Services</h1>
+    <!-- team Hero Section -->
+    <section class="bg-white">
+        <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 text-center tracking-tight leading-snug">
+                Service Details</h1>
+            <div class="mt-4 flex justify-center">
                 <div
-                    class="flex items-center justify-center text-gray-600 border max-w-[200px] w-full p-1 rounded-full">
-                    <span class="hover:text-blue-600 transition-colors"><a href="index.html">Home</a></span>
-                    <span class="mx-2"><img src="Images/servicepage/breadcum.svg" alt=""></span>
-                    <span class="text-blue-600 font-medium">Services</span>
+                    class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-1 text-sm text-gray-600">
+                    <a href="service.html" class="text-gray-900">Services</a>
+                    <span class="text-gray-400"><img src="Images/servicepage/breadcum.svg" alt=""></span>
+                    <span class="text-blue-600 font-medium">Tax Compliance & Tax Advisory Services</span>
                 </div>
             </div>
-
-            <!-- Main Content Area with Background Image and Overlays -->
-            <!-- <div class="relative w-full h-[500px] lg:h-[600px] rounded-2xl overflow-hidden bg-[url('Images/servicepage/herosection.png')] bg-fit bg-center"> -->
-            <div class="relative w-full h-[500px] lg:h-[600px] rounded-2xl overflow-hidden">
-
-                <div class="background-shape">
-                    <div class="absolute top-0 left-0 w-full h-full">
-                        <img src="Images/servicepage/herosection.webp" alt="" class="w-full h-full">
-                    </div>
-                </div>
-                <!-- Background Image -->
-                <!-- <div class="absolute inset-0 bg-gradient-to-r from-blue-50 to-gray-100">
-                    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI2MDAiIHZpZXdCb3g9IjAgMCAxMjAwIDYwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNjAwIiBmaWxsPSIjRjNGNEY2Ii8+CjxjaXJjbGUgY3g9IjMwMCIgY3k9IjIwMCIgcj0iMTAwIiBmaWxsPSIjRjFGNUY5Ii8+CjxjaXJjbGUgY3g9IjkwMCIgY3k9IjQwMCIgcj0iMTUwIiBmaWxsPSIjRjFGNUY5Ii8+CjxjaXJjbGUgY3g9IjEwMDAiIGN5PSIxMDAiIHI9IjgwIiBmaWxsPSIjRjFGNUY5Ii8+Cjwvc3ZnPgo=')] bg-cover bg-center opacity-20"></div>
-                </div> -->
-
-                <!-- Meeting Scene Overlay -->
-                <!-- <div class="absolute inset-0 flex items-center justify-center">
-                    <div class="relative w-full max-w-4xl mx-auto px-8">
-                        <img src="Images/servicepage/herosection.png" class="w-full h-full" alt="">
-                    </div>
-                </div> -->
-
-                <!-- Statistics Boxes -->
-                <!-- Left Box (Teal) -->
-                <div
-                    class="absolute left-0 lg:left-[.05rem] top-[73%] md:top-[95px] lg:top-[112px] transform -translate-y-1/2 bg-teal-500 text-white px-6 py-4 rounded-[25px] shadow-lg w-[190px] h-30">
-                    <div class="text-center py-12 md:py-10 lg:py-12 px-2 lg:px-1">
-                        <div class="text-3xl lg:text-4xl font-bold">145</div>
-                        <div class="text-sm lg:text-base">Completed Projects</div>
-                    </div>
-                </div>
-
-                <!-- Right Box (Blue) -->
-                <div
-                    class="absolute right-0 lg:right-[0.05rem] -bottom-[70px] md:-bottom-[95px] lg:-bottom-[105px] transform -translate-y-1/2 bg-blue-600 text-white px-6 py-4 rounded-[25px] shadow-lg w-[190px] h-30">
-                    <div class="text-center py-12 md:py-10 lg:py-12 px-1">
-                        <div class="text-3xl lg:text-4xl font-bold">98%</div>
-                        <div class="text-sm lg:text-base">Client Retention Rate</div>
-                    </div>
-                </div>
+            <div class="mt-4 flex item-center justify-center">
+                <img src="Images/automation_services/herosection.webp" alt="" class="w-full h-full">
             </div>
         </div>
     </section>
 
-    <!-- Services: Grid -->
-    <section id="services" class="relative py-4">
-        <div class="mx-auto px-4 mb-12">
-            <h3 class="text-[2.5rem] text-center font-[900]">Our Goal, Our Services</h3>
-            <div class="flex items-center justify-center gap-5 mt-3">
-                <img src="Images/servicepage/serviceicon.svg" alt="">
-                <p class="text-left font-semibold text-gray-900">We believe in bespoke strategies, designed <br>
-                    specifically for your business needs.</p>
+    <!-- Automation Services Section -->
+    <section class="bg-white py-2 lg:py-2">
+        <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Section Header -->
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+                    Tax (Tax compliance & Tax Planning)
+                </h2>
+
+                <!-- Responsive Tabs -->
+                <div class="grid grid-cols-1 md:flex md:flex-wrap justify-center gap-3 mb-8">
+                    <button
+                        class="tab-button bg-blue-600 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none"
+                        data-tab="erp">
+                        Tax Compliance & Tax Advisory Services
+                    </button>
+                    <!-- <button
+                        class="tab-button bg-gray-100 text-gray-700 px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none"
+                        data-tab="hrms">
+                        Transaction advisory
+                    </button>
+                    <button class="tab-button bg-gray-100 text-gray-700 px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none" data-tab="crm">
+                        Digitsation - E Records
+                    </button> -->
+                    <!-- <button class="tab-button bg-gray-100 text-gray-700 px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none" data-tab="yapp">
+                        YAPP – Your Automation Pain Point
+                    </button> -->
+                </div>
+                <hr class="max-w-full lg:max-w-[84.375rem] mx-auto">
             </div>
-        </div>
-        <div class="max-w-7xl mx-auto px-4 lg:px-20 mb-8">
-            <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
-                <a href="managed_services.html">
-                    <div class="group rounded-2xl p-6 bg-[#C1E7CE] h-[300px]">
-                        <img src="Images/servicepage/serviceshape_1.svg" alt="" class="mb-4 w-16">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Manged Services</h3>
-                        <p class="text-sm">Lorem ipsum dolor sit amet consecr. Tempor odio aliquam morbi sit velit et
-                            nisl vel egestas. Viverra molestie amet nibh integer massa.</p>
+
+            <!-- Tab Content -->
+            <div class="mb-16">
+                <!-- ERP Implementation Tab -->
+                <div id="erp" class="tab-panel">
+                    <div class="px-8 py-4 lg:px-8 mb-5">
+                        <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+                            Minimize Risk. Maximize Opportunity.
+                        </h3>
+                        <p class="text-md text-gray-700 leading-relaxed mb-6">
+                            Navigating the ever-changing tax landscape is complex — but it doesn’t have to be overwhelming. At ARSI, we provide end-to-end Tax Compliance and Tax Advisory services to help businesses and individuals stay compliant, reduce tax liabilities, and make informed financial decisions.
+                        </p>
+                        <p class="text-md text-gray-700 leading-relaxed mb-6">
+                            Whether you're managing local obligations or expanding globally, our experienced tax professionals deliver the insights, accuracy, and support you need to stay ahead.
+                        </p>
+                        <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 text-center">
+                            Our Tax Services
+                        </h3>
                     </div>
-                </a>
-                <a href="advisory_services.html">
-                    <div class="group rounded-2xl p-6 bg-[#F0F0F0] h-[300px]">
-                        <img src="Images/servicepage/serviceshape_2.svg" alt="" class="mb-4 w-16">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Advisory / Consulting</h3>
-                        <p class="text-sm">Lorem ipsum dolor sit amet consecr. Tempor odio aliquam morbi sit velit et
-                            nisl vel egestas. Viverra molestie amet nibh integer massa.</p>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-2">
+                        <div class="px-8 py-4 lg:px-12 mb-5">
+                            
+                            <h2 class="text-md text-blue-600 font-bold mb-2">✅ Tax Compliance</h2>
+                            
+                            <p class="text-md text-gray-700 leading-relaxed">
+                                Ensure full and timely compliance with all tax regulations — local, national, and international.
+                            </p>
+                            <div class="space-y-4 mt-2 mb-2">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Corporate Tax Return Preparation & Filing</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">GST / VAT / Sales Tax Reporting
+                                        </span>
+                                </div>
+                                
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Payroll Tax Compliance</span>
+                                </div>
+                               
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Withholding Tax Management</span>
+                                </div>
+                               
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Transfer Pricing Documentation & Reporting</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Tax Provisioning & Year-End Support</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Regulatory Filings & Correspondence with Tax Authorities</span>
+                                </div>
+                            </div>
+                            <p class="text-md text-gray-700 leading-relaxed">
+                                We handle the details so you can focus on running your business with peace of mind.
+                            </p>
+                        </div>
+
+                        <!-- Right Section: ERP Platforms Supported -->
+                        <div class="px-8 py-4 lg:px-12 mb-5">
+                            <h3 class="text-md text-blue-600 font-bold mb-2">✅ Tax Advisory</h3>
+                            <!-- <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+                                Our Tax Services
+                            </h3> -->
+                            <p class="text-md text-gray-700 leading-relaxed">
+                                Take a proactive approach to tax planning and strategy to optimize your financial outcomes.
+                            </p>
+                            <div class="space-y-4 mt-2 mb-2">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Tax Planning for Businesses & Individuals</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Entity Structure Advisory (LLC, LLP, C-Corp, etc.)
+                                        </span>
+                                </div>
+                                
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Cross-Border & International Tax Structuring</span>
+                                </div>
+                               
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Transaction & M&A Tax Advisory</span>
+                                </div>
+                               
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Capital Gains, Dividends, and Investment Tax Optimization</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Succession & Estate Tax Planning</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Tax Risk Mitigation & Audit Defense</span>
+                                </div>
+                            </div>
+                            <p class="text-md text-gray-700 leading-relaxed">
+                                Our experts stay up to date with tax laws so you can stay ahead of the curve.
+                            </p>
+                        </div>
                     </div>
-                </a>
-                <a href="automation_services.html">
-                    <div class="group rounded-2xl p-6 bg-[#D4DFFB] h-[300px]">
-                        <img src="Images/servicepage/serviceshape_3.svg" alt="" class="mb-5 w-16">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Automation Services</h3>
-                        <p class="text-sm">Lorem ipsum dolor sit amet consecr. Tempor odio aliquam morbi sit velit et
-                            nisl vel egestas. Viverra molestie amet nibh integer massa.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+                        <div class="col-span-1 rounded lg:ps-8 py-4 lg:ps-12">
+                            <img src="Images/automation_services/erp_left.webp" alt=""
+                                class="rounded-2xl w-full h-auto">
+                        </div>
+                        <div class="col-span-2 rounded py-4 lg:px-12">
+                            <img src="Images/automation_services/erp_right.webp" alt=""
+                                class="rounded-2xl w-full h-full">
+                        </div>
                     </div>
-                </a>
-                <a href="tax_services.html">
-                    <div class="group rounded-2xl p-6 bg-[#F0F0F0] h-[300px]">
-                        <img src="Images/servicepage/serviceshape_4.svg" alt="" class="mb-4 w-16">
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Tax (Tax Compliance & Tax Planning)</h3>
-                        <p class="text-sm">Lorem ipsum dolor sit amet consecr. Tempor odio aliquam morbi sit velit et
-                            nisl vel egestas. Viverra molestie amet nibh integer massa.</p>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5">
+                        <!-- Left Section: ERP Services Description -->
+                        
+                        <div class="px-8 py-4 lg:px-12 mb-5">
+                            <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+                                Who We Serve
+                            </h3>
+                            <div class="space-y-4">
+                                <div class="flex items-center gap-2">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Small to Medium Businesses (SMBs)</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Startups and High-Growth Companies
+                                        </span>
+                                </div>
+                                
+                                <div class="flex items-center gap-2">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Corporations with Multi-Jurisdictional Operations</span>
+                                </div>
+                               
+                                <div class="flex items-center gap-2">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Individual Taxpayers, Entrepreneurs, and Investors</span>
+                                </div>
+                               
+                                <div class="flex items-center gap-2">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Family-Owned Enterprises and Trusts</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Nonprofits and NGOs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Right Section: ERP Platforms Supported -->
+                        <div class="px-8 py-4 lg:px-12 mb-5">
+                            
+                            <div class="space-y-4">
+                                <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+                                    Why Choose Us?
+                                </h3>
+                                <div class="space-y-4">
+                                    <ul class="ps-0">
+                                        <li
+                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Deep Technical ExpertiseExpert Knowledge, Local & Global</li>
+                                            <p class="text-gray-600 text-medium">
+                                                Our team brings deep expertise in domestic and international tax regulations, helping you stay compliant wherever you do business.
+                                            </p>
+
+                                        <li
+                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Strategic, Forward-Thinking Advice</li>
+                                            <p class="text-gray-600 text-medium">
+                                                We don’t just file returns — we identify opportunities, avoid pitfalls, and plan for the future.
+                                            </p>
+
+                                        <li
+                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Personalized Service</li>
+                                            <p class="text-gray-600 text-medium">
+                                                Every client’s tax situation is unique. We tailor our services to your specific industry, structure, and growth goals.
+                                            </p>
+
+                                        <li
+                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Transparent Communication</li>
+                                            <p class="text-gray-600 text-medium">
+                                                No jargon. Just clear, timely, and actionable guidance you can trust.
+                                            </p>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                     </div>
-                </a>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+                        <div class="col-span-1 rounded lg:ps-8 py-4 lg:ps-12">
+                            <img src="Images/automation_services/erp_left_end.webp" alt=""
+                                class="rounded-2xl w-full h-auto">
+                        </div>
+                        <div class="col-span-2 rounded py-4 lg:px-12">
+                            <img src="Images/automation_services/erp_right_end.webp" alt=""
+                                class="rounded-2xl w-full h-full">
+                        </div>
+                    </div>
+
+                    <div class="px-8 py-4 lg:px-12 mb-5 text-center">
+                        <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+                            Let’s Simplify Your Taxes — and Strengthen Your Strategy
+                        </h3>
+                        <div class="space-y-4">
+                            <p class="text-md text-gray-700 leading-relaxed">
+                                From routine filings to complex advisory, we help you take control of your tax position. Let’s reduce your tax burden, minimize risk, and unlock long-term savings — the smart and compliant way.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HRMS Implementation Tab -->
+                <div id="hrms" class="tab-panel hidden">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-2">
+                        <!-- Left Section: ERP Services Description -->
+                        <div class="px-8 py-4 lg:px-8 mb-5">
+                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+                                Navigate Deals with Confidence. Maximize Value.
+                            </h3>
+                            <p class="text-md text-gray-700 leading-relaxed mb-6">
+                                Whether you're buying, selling, investing, or restructuring, every business transaction involves risk — and opportunity. At ARSI, our Transaction Advisory Services provide the insight, analysis, and strategic guidance you need to make informed decisions and execute deals with confidence.
+                            </p>
+                            <p class="text-md text-gray-700 leading-relaxed mb-6">
+                                We partner with investors, founders, CFOs, and corporate development teams to evaluate opportunities, uncover risks, and drive successful transactions from start to finish.
+                            </p>
+                            
+                        </div>
+
+                        <!-- Right Section: ERP Platforms Supported -->
+                        <div class="px-8 py-4 lg:px-12 mb-5">
+                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+                                What We Offer
+                            </h3>
+                            <p class="text-md text-gray-700 leading-relaxed">
+                                Our end-to-end transaction support ensures that your deals are not only compliant — but also aligned with your strategic, financial, and operational goals.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+                        <div class="col-span-1 rounded lg:ps-8 py-4 lg:ps-12">
+                            <img src="Images/automation_services/erp_left.webp" alt=""
+                                class="rounded-2xl w-full h-auto">
+                        </div>
+                        <div class="col-span-2 rounded py-4 lg:px-12">
+                            <img src="Images/automation_services/erp_right.webp" alt=""
+                                class="rounded-2xl w-full h-full">
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5">
+                        <!-- Left Section: ERP Services Description -->
+                        
+                        <div class="px-8 py-4 lg:px-12 mb-5">
+                            <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+                                Our Transaction Advisory Services Include:
+                            </h3>
+                            <div class="space-y-4">
+                                <ol class="ps-0">
+                                    <li class="before:content-['✔'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Financial Due Diligence</li>
+                                    <p class="text-gray-600 text-medium">
+                                        We perform detailed assessments of target companies’ financial health, quality of earnings, working capital, debt, and cash flow — giving you clarity before the deal closes.
+                                    </p>
+                                    <li class="before:content-['✔'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Buy-Side Advisory</li>
+                                    <p class="text-gray-600 text-medium">
+                                        From target screening to valuation analysis and negotiation support, we help buyers identify the right opportunity and pay the right price.
+                                    </p>
+                                    <li class="before:content-['✔'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Sell-Side Advisory & Readiness</li>
+                                    <p class="text-gray-600 text-medium">
+                                        Planning to sell or raise capital? We help you get investor-ready with clean financials, proper documentation, and optimized valuations.
+                                    </p>
+                                    <li class="before:content-['✔'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Business Valuation Services</li>
+                                    <p class="text-gray-600 text-medium">
+                                        Independent, defensible valuation reports for M&A, fundraising, internal restructuring, or dispute resolution.
+                                    </p>
+                                    <li class="before:content-['✔'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Tax Structuring & Advisory</li>
+                                    <p class="text-gray-600 text-medium">
+                                        We optimize the tax impact of your transaction, considering both immediate obligations and long-term implications.
+                                    </p>
+                                    <li class="before:content-['✔'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Post-Transaction Integration Support</li>
+                                    <p class="text-gray-600 text-medium">
+                                        Smooth the transition after the deal closes with integration planning, process alignment, and financial systems support.
+                                    </p>
+                                    <li class="before:content-['✔'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Transaction Structuring & Negotiation Support</li>
+                                    <p class="text-gray-600 text-medium">
+                                        We help design the optimal deal structure, ensuring legal, financial, and strategic alignment while minimizing risk.
+                                    </p>
+                                </ol>
+                            </div>
+                        </div>
+                        <!-- Right Section: ERP Platforms Supported -->
+                        <div class="px-8 py-4 lg:px-12 mb-5">
+                            <div class="space-y-4">
+                                <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+                                    When You Need Us
+                                </h3>
+                                <div class="space-y-4">
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">Buying or investing in a company
+                                      
+                                            </span>
+                                    </div>
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">Selling your business or divesting a unit
+                                            </span>
+                                    </div>
+                                    
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">Raising private equity or venture capital</span>
+                                    </div>
+                                   
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">Merging with or acquiring a competitor</span>
+                                    </div>
+                                   
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">Conducting internal reorganization</span>
+                                    </div>
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">Preparing for IPO or SPAC deals</span>
+                                    </div>
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">Seeking valuation or fairness opinions</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space-y-4 mt-6">
+                                <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+                                    Why Choose Us?
+                                </h3>
+                                <div class="space-y-4">
+                                    <ul class="">
+                                        <li
+                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Cross-Functional Expertise</li>
+                                            <p class="text-gray-600 text-medium">
+                                                Our team brings deep experience across finance, accounting, tax, operations, and legal — ensuring 360° transaction support.
+                                            </p>
+
+                                        <li
+                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Industry-Focused Insights</li>
+                                            <p class="text-gray-600 text-medium">
+                                                We understand the nuances of your sector, from tech and SaaS to manufacturing, healthcare, retail, and more.
+                                            </p>
+
+                                        <li
+                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Risk Mitigation & Value Creation</li>
+                                            <p class="text-gray-600 text-medium">
+                                                We don’t just highlight risks — we help you structure deals to capture value and avoid costly surprises.
+                                            </p>
+
+                                        <li
+                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Agile, Confidential & Trusted</li>
+                                            <p class="text-gray-600 text-medium">
+                                                We work with speed and discretion, protecting your interests and aligning closely with your leadership team throughout the deal lifecycle.
+                                            </p>
+                                       
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+                        <div class="col-span-1 rounded lg:ps-8 py-4 lg:ps-12">
+                            <img src="Images/automation_services/erp_left_end.webp" alt=""
+                                class="rounded-2xl w-full h-auto">
+                        </div>
+                        <div class="col-span-2 rounded py-4 lg:px-12">
+                            <img src="Images/automation_services/erp_right_end.webp" alt=""
+                                class="rounded-2xl w-full h-full">
+                        </div>
+                    </div>
+
+                    <div class="px-8 py-4 lg:px-12 mb-5 text-center">
+                        <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+                            Make Better Decisions. Close Stronger Deals.
+                        </h3>
+                        <div class="space-y-4">
+                            <p class="text-md text-gray-700 leading-relaxed">
+                                Every transaction is a critical moment for your business. With our Transaction Advisory team by your side, you gain the insight and execution support you need to maximize value and minimize risk.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CRM Implementation Tab -->
+                <div id="crm" class="tab-panel hidden">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-2">
+                        <!-- Left Section: ERP Services Description -->
+                        <div class="px-8 py-4 lg:px-8 mb-5">
+                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+                                Transform Paper into Power: Go Digital with Confidence
+                            </h3>
+                            <p class="text-md text-gray-700 leading-relaxed mb-6">
+                                Managing paper-based records is not only time-consuming and costly — it also increases the risk of loss, inefficiency, and non-compliance. At ARSI, we help organizations transition into the digital age with secure, scalable, and compliant e-records digitisation solutions.
+                            </p>
+                            <p class="text-md text-gray-700 leading-relaxed mb-6">
+                                Whether you're modernizing your archives, improving data accessibility, or meeting regulatory demands, our digitisation services ensure your records are preserved, searchable, and future-ready.
+                            </p>
+                            
+                        </div>
+
+                        <!-- Right Section: ERP Platforms Supported -->
+                        <div class="px-8 py-4 lg:px-12 mb-5">
+                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+                                Why Digitise Your Records?
+                            </h3>
+                            <ul class="">
+                                <li
+                                    class="before:content-['✅'] before:mr-2 before:inline-block text-md mt-2 mb-2">
+                                    <b>Easy Access:</b> Retrieve documents instantly from anywhere
+                                </li>
+                                <li
+                                    class="before:content-['✅'] before:mr-2 before:inline-block text-md mt-2 mb-2">
+                                    <b>Improved Compliance:</b> Meet regulatory, audit, and legal requirements
+                                </li>
+                                <li
+                                    class="before:content-['✅'] before:mr-2 before:inline-block text-md mt-2 mb-2">
+                                    <b>Enhanced Security:</b> Protect sensitive data with controlled access and encryption
+                                </li>
+                                <li
+                                    class="before:content-['✅'] before:mr-2 before:inline-block text-md mt-2 mb-2">
+                                    <b>Disaster Recovery:</b> Reduce risk from fire, flood, theft, or deterioration
+                                </li>
+                                <li
+                                    class="before:content-['✅'] before:mr-2 before:inline-block text-md mt-2 mb-2">
+                                    <b>Reduced Costs:</b> Save space, labor, and storage expenses
+                                </li>
+                                <li
+                                    class="before:content-['✅'] before:mr-2 before:inline-block text-md mt-2 mb-2">
+                                    <b>Sustainable Operations:</b> Go paperless and reduce your environmental footprint
+                                </li>
+                               
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+                        <div class="col-span-1 rounded lg:ps-8 py-4 lg:ps-12">
+                            <img src="Images/automation_services/erp_left.webp" alt=""
+                                class="rounded-2xl w-full h-auto">
+                        </div>
+                        <div class="col-span-2 rounded py-4 lg:px-12">
+                            <img src="Images/automation_services/erp_right.webp" alt=""
+                                class="rounded-2xl w-full h-full">
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5">
+                        <!-- Left Section: ERP Services Description -->
+                        
+                        <div class="px-8 py-4 lg:px-12">
+                            <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+                                Our Digitisation Services Include:
+                            </h3>
+                            <div class="space-y-4">
+                                <ol class="ps-0">
+                                    <li class="before:content-['📄'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Document Scanning & Imaging</li>
+                                    <p class="text-gray-600 text-medium">
+                                        High-resolution scanning of paper records, books, blueprints, and legacy documents using advanced equipment.
+                                    </p>
+                                    <li class="before:content-['🔍'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">OCR & Intelligent Data Capture</li>
+                                    <p class="text-gray-600 text-medium">
+                                        Convert images into searchable, indexable, and editable text using Optical Character Recognition (OCR) and AI-powered data extraction.
+                                    </p>
+                                    <li class="before:content-['📁'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Indexing & Metadata Tagging</li>
+                                    <p class="text-gray-600 text-medium">
+                                        Streamline your operations, eliminate inefficiencies, and improve productivity across your organization.
+                                    </p>
+                                    <li class="before:content-['🔐'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Secure Digital Storage & Access</li>
+                                    <p class="text-gray-600 text-medium">
+                                         
+                                        Store records in encrypted cloud repositories or on-premise systems with role-based access controls.
+
+                                    </p>
+                                    <li class="before:content-['📁'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Electronic Records Management Systems (ERMS)</li>
+                                    <p class="text-gray-600 text-medium">
+                                         
+                                        Implement robust ERMS platforms to manage the full lifecycle of your digital records — from capture to retention and disposal.
+
+                                    </p>
+                                    <li class="before:content-['🔄'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Bulk Archival Conversion</li>
+                                    <p class="text-gray-600 text-medium">
+                                        
+                                        Digitise large volumes of archived records — whether historical or operational — with minimal disruption.
+                                        
+                                    </p>
+                                    <li class="before:content-['⚖️'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">Compliance & Retention Policy Support</li>
+                                    <p class="text-gray-600 text-medium">
+                                         
+                                        Ensure digitised documents comply with industry-specific regulations (e.g., GDPR, HIPAA, ISO standards).
+
+                                    </p>
+                                    
+                                </ol>
+                            </div>
+                        </div>
+                        <!-- Right Section: ERP Platforms Supported -->
+                        <div class="px-8 py-4 lg:px-12">
+                            <div class="space-y-4">
+                                <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+                                    Who We Serve
+                                </h3>
+                                <div class="space-y-4">
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">Government Agencies</span>
+                                    </div>
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">•Healthcare Institutions & Clinics                    
+                                            </span>
+                                    </div>
+                                    
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">Legal & Financial Firms
+                                           </span>
+                                    </div>
+                                   
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">Educational Institutions
+                                            </span>
+                                    </div>
+                                   
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">Corporates & SMEs
+                                </span>
+                                    </div>
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">
+                                            Libraries & Museums
+                                        </span>
+                                    </div>
+                                    <div class="flex items-center gap-4">
+                                        <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                        <span class="text-md">Real Estate & Infrastructure Companies</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space-y-4 mt-6">
+                                <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+                                    Our Process
+                                </h3>
+                                <div class="space-y-4">
+                                    <ul class="">
+                                        <li
+                                            class="font-bold text-md mt-2 mb-2">
+                                            1.	Assessment & Audit</li>
+                                            <p class="text-gray-600 text-medium">
+                                                
+                                                We begin with a needs analysis and evaluation of your current records and retention policies.
+                                                
+                                            </p>
+
+                                        <li
+                                            class="font-bold text-md mt-2 mb-2">
+                                            2.	Digitisation Planning</li>
+                                            <p class="text-gray-600 text-medium">
+                                                
+                                                Customized strategy based on volume, formats, compliance needs, and budget
+                                                
+                                            </p>
+
+                                        <li
+                                            class="font-bold text-md mt-2 mb-2">
+                                            3.	Secure Collection & Scanning</li>
+                                            <p class="text-gray-600 text-medium">
+                                                Documents are handled with care, confidentiality, and chain-of-custody protocols.
+
+                                            </p>
+
+                                        <li
+                                            class="font-bold text-md mt-2 mb-2">
+                                            4.	Indexing & Quality Checks</li>
+                                            <p class="text-gray-600 text-medium">
+                                                
+                                                We ensure high accuracy with multi-stage verification and QC.
+                                            </p>
+                                            <li
+                                            class="font-bold text-md mt-2 mb-2">
+                                            5.	Digital Delivery & Integration</li>
+                                            <p class="text-gray-600 text-medium">
+                                                
+                                                
+                                                Final files are delivered in your preferred format and integrated into your document management system (DMS) or cloud storage.
+
+                                            </p>
+                                       
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-8 py-4 lg:px-12 mb-5">
+                            <div class="space-y-4">
+                                <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+                                    Why Choose Us?
+                                </h3>
+                                <div class="space-y-4">
+                                    <ul class="">
+                                        <li
+                                            Trusted Experience</li>
+                                            <p class="text-gray-600 text-medium">
+                                                We’ve helped organizations across sectors go digital securely and efficiently.
+                                            </p>
+    
+                                        <li
+                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Scalable Capacity</li>
+                                            <p class="text-gray-600 text-medium">
+                                                From a few hundred documents to millions of records — we scale with your needs.
+                                            </p>
+    
+                                        <li
+                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Compliance-First Approach</li>
+                                            <p class="text-gray-600 text-medium">
+                                                We understand the legal and regulatory landscape around digital records.
+                                            </p>
+    
+                                        <li
+                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            End-to-End Support</li>
+                                            <p class="text-gray-600 text-medium">
+                                                From strategy to execution to post-project support, we’re with you every step of the way.    
+                                            </p>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+                        <div class="col-span-1 rounded lg:ps-8 py-4 lg:ps-12">
+                            <img src="Images/automation_services/erp_left_end.webp" alt=""
+                                class="rounded-2xl w-full h-auto">
+                        </div>
+                        <div class="col-span-2 rounded py-4 lg:px-12">
+                            <img src="Images/automation_services/erp_right_end.webp" alt=""
+                                class="rounded-2xl w-full h-full">
+                        </div>
+                    </div>
+
+                    <div class="px-8 py-4 lg:px-12 mb-5 text-center">
+                        <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+                            Let’s Digitise Your Records — and Your Future
+                        </h3>
+                        <div class="space-y-4">
+                            <p class="text-md text-gray-700 leading-relaxed">
+                                Go paperless. Go secure. Go efficient. With ARSI, digitisation is more than scanning — it’s transforming how your organization accesses, manages, and protects its information.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- YAPP Tab -->
+                <div id="yapp" class="tab-panel hidden">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+                        <!-- Left Section: ERP Services Description -->
+                        <div class="px-8 py-4 lg:px-12 mb-5">
+                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+                                Streamline Operations. Drive Growth. Empower Your Business.
+                            </h3>
+                            <p class="text-md text-gray-700 leading-relaxed">
+                                At ARSI, we specialize in end-to-end ERP implementation services that help businesses
+                                unify their processes, enhance productivity and gain real-time insights. Whether you're
+                                upgrading from legacy systems or adopting ERP for the first time, our experienced team
+                                ensures a seamless transition tailored to your unique business needs.
+                            </p>
+                        </div>
+
+                        <!-- Right Section: ERP Platforms Supported -->
+                        <div class="px-8 py-4 lg:px-12 mb-5">
+                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+                                ERP Platforms
+                            </h3>
+                            <p class="text-md text-gray-700 mb-8 leading-relaxed">
+                                Unlock the Power of Innovation with the Top ERP Platforms We Proudly Support.
+                            </p>
+                            <div class="space-y-4">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-3 h-3 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-sm text-gray-900 font-medium">Oracle ERP Cloud</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-3 h-3 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-sm text-gray-900 font-medium">SAP S/4HANA</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-3 h-3 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-sm text-gray-900 font-medium">Microsoft Dynamics 365</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-3 h-3 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-sm text-gray-900 font-medium">NetSuite</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-3 h-3 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-sm text-gray-900 font-medium">And more...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+                        <div class="col-span-1 rounded lg:ps-8 py-4 lg:ps-12">
+                            <img src="Images/automation_services/erp_left.webp" alt=""
+                                class="rounded-2xl w-full h-auto">
+                        </div>
+                        <div class="col-span-2 rounded py-4 lg:px-12">
+                            <img src="Images/automation_services/erp_right.webp" alt=""
+                                class="rounded-2xl w-full h-full">
+                        </div>
+                    </div>
+                    <div class="px-8 py-4 lg:px-12 mb-5">
+                        <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+                            Why Choose Us for ERP Implementation?
+                        </h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center gap-4">
+                                <div class="w-4 h-4 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                <span class="text-md font-bold">Proven Expertise</span>
+                            </div>
+                            <p class="text-gray-600 font-medium">With years of hands-on experience across industries, we
+                                deliver ERP solutions that work — on time and within budget.</p>
+                            <div class="flex items-center gap-4">
+                                <div class="w-4 h-4 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                <span class="text-md font-bold">Tailored Solutions</span>
+                            </div>
+                            <p class="text-gray-600 font-medium">We don’t believe in one-size-fits-all. Our
+                                implementation process is fully customized to align with your workflows, goals and
+                                business culture.</p>
+                            <div class="flex items-center gap-4">
+                                <div class="w-4 h-4 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                <span class="text-md font-bold">Tailored Solutions</span>
+                            </div>
+                            <p class="text-gray-600 font-medium">From discovery and planning to training and post-launch
+                                support, we’re with you every step of the way.</p>
+                        </div>
+                    </div>
+                    <div class="px-8 py-4 lg:px-12 mb-5">
+                        <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+                            Our ERP Implementation Process
+                        </h3>
+                        <div class="space-y-4">
+                            <ol class="list-decimal ps-8">
+                                <li class="font-bold text-md mb-2">Discovery & Needs Assessment</li>
+                                <p class="text-gray-600 text-medium">
+                                    We begin by understanding your business processes, pain points, and goals to define
+                                    the right ERP strategy.
+                                </p>
+                                <li class="font-bold text-md mb-2">System Selection</li>
+                                <p class="text-gray-600 text-medium">
+                                    We help you choose the best ERP platform for your industry and scale — whether it’s
+                                    SAP, Oracle, Microsoft Dynamics, NetSuite or others.
+                                </p>
+                                <li class="font-bold text-md mb-2">Planning & Roadmap</li>
+                                <p class="text-gray-600 text-medium">
+                                    Our team develops a detailed implementation plan, complete with timelines,
+                                    milestones and resource allocation.
+                                </p>
+                                <li class="font-bold text-md mb-2">Customization &amp; Integration</li>
+                                <p class="text-gray-600 text-medium">
+                                    We tailor the ERP system to your needs and integrate it with existing systems like
+                                    CRM, HR, finance or supply chain.
+                                </p>
+                                <li class="font-bold text-md mb-2">Data Migration</li>
+                                <p class="text-gray-600 text-medium">
+                                    We ensure a secure, accurate transfer of your historical data into the new ERP
+                                    system.
+                                </p>
+                                <li class="font-bold text-md mb-2">Testing & Quality Assurance</li>
+                                <p class="text-gray-600 text-medium">
+                                    Rigorous testing is conducted to ensure every module functions flawlessly before
+                                    going live.
+                                </p>
+                                <li class="font-bold text-md mb-2">Training & Change Management</li>
+                                <p class="text-gray-600 text-medium">
+                                    We equip your team with the training and tools they need to adapt and thrive in the
+                                    new ERP environment.
+                                </p>
+                                <li class="font-bold text-md mb-2">Go-Live &amp; Ongoing Support</li>
+                                <p class="text-gray-600 text-medium">
+                                    Once live, we continue to monitor performance, address issues and provide updates as
+                                    needed.
+                                </p>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
+                        <div class="col-span-1 rounded lg:ps-8 py-4 lg:ps-12">
+                            <img src="Images/automation_services/erp_left_end.webp" alt=""
+                                class="rounded-2xl w-full h-auto">
+                        </div>
+                        <div class="col-span-2 rounded py-4 lg:px-12">
+                            <img src="Images/automation_services/erp_right_end.webp" alt=""
+                                class="rounded-2xl w-full h-full">
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <!-- Services Grid -->
         </div>
     </section>
 
-    <!-- Services: CTA -->
-    <!-- <section class="relative bg-blue-600 text-white py-10 lg:py-12">
-        <div class="max-w-8xl mx-auto px-4 lg:px-20">
-            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-                <h2 class="text-2xl md:text-3xl font-extrabold">Have a project in mind?</h2>
-                <a href="./contact.html"
-                    class="inline-flex items-center gap-2 bg-white text-blue-700 font-semibold px-6 py-3 rounded-full shadow hover:shadow-lg transition">Let's
-                    talk</a>
-            </div>
-        </div>
-    </section> -->
 
+   
 
     <!-- Newsletter CTA + Scrolling Contact Band End -->
     <section aria-label="Scrolling contact band" class="">
@@ -426,8 +1200,8 @@
                     <ul class="space-y-3">
                         <li class="text-white/80"><a href="managed_services.html">Managed services</a></li>
                         <li class="text-white/80"><a href="advisory_services.html">Advisory / Consulting</a></li>
-                        <li class="text-white/80"><a href="automation_services.html">Automation</a></li>
-                        <li class="text-white/80"><a href="tax_services.html">Tax (Tax compliance & Tax Planning)</a></li>
+                        <li class="text-white/80"><a href="#">Automation</a></li>
+                        <li class="text-white/80"><a href="#">Tax (Tax compliance & Tax Planning)</a></li>
                         
                     </ul>
                 </div>
@@ -448,47 +1222,86 @@
     </footer>
     <!-- Footer End -->
 
-    <!-- Back To Top Button -->
-    <button id="backToTop" aria-label="Go to top"
-        class="fixed bottom-6 right-6 z-[999] h-12 w-12 rounded-full bg-[#1176BC] hover:bg-[#0f69a7] text-white shadow-lg grid place-items-center transition-all duration-300 opacity-0 translate-y-3 pointer-events-none">
-        <i class="bi bi-arrow-up"></i>
-    </button>
-
+    <!-- JavaScript for Tabs -->
     <script>
-        // Offcanvas menu functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuBtn = document.getElementById("menu-btn");
-            const offcanvas = document.getElementById("offcanvas");
-            const offcanvasMenu = document.getElementById("offcanvas-menu");
-            const closeBtn = document.getElementById("close-btn");
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabPanels = document.querySelectorAll('.tab-panel');
 
-            if (menuBtn && offcanvas && offcanvasMenu && closeBtn) {
-                menuBtn.addEventListener("click", () => {
-                    offcanvas.classList.remove("hidden");
-                    setTimeout(() => {
-                        offcanvasMenu.classList.remove("-translate-x-full");
-                    }, 10);
+            // Function to show tab content
+            function showTab(tabId) {
+                // Hide all tab panels
+                tabPanels.forEach(panel => {
+                    panel.classList.add('hidden');
                 });
 
-                closeBtn.addEventListener("click", () => {
+                // Remove active class from all buttons
+                tabButtons.forEach(button => {
+                    button.classList.remove('active', 'bg-blue-600', 'text-white');
+                    button.classList.add('bg-gray-100', 'text-gray-700');
+                });
+
+                // Show selected tab panel
+                const selectedPanel = document.getElementById(tabId);
+                if (selectedPanel) {
+                    selectedPanel.classList.remove('hidden');
+                }
+
+                // Add active class to clicked button
+                const activeButton = document.querySelector(`[data-tab="${tabId}"]`);
+                if (activeButton) {
+                    activeButton.classList.add('active', 'bg-blue-600', 'text-white');
+                    activeButton.classList.remove('bg-gray-100', 'text-gray-700');
+                }
+            }
+
+            // Add click event listeners to all tab buttons
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const tabId = this.getAttribute('data-tab');
+                    showTab(tabId);
+                });
+            });
+
+            // Show first tab by default
+            if (tabButtons.length > 0) {
+                showTab('erp');
+            }
+        });
+
+        // Offcanvas menu functionality
+        const menuBtn = document.getElementById("menu-btn");
+        const offcanvas = document.getElementById("offcanvas");
+        const offcanvasMenu = document.getElementById("offcanvas-menu");
+        const closeBtn = document.getElementById("close-btn");
+
+        if (menuBtn && offcanvas && offcanvasMenu && closeBtn) {
+            menuBtn.addEventListener("click", () => {
+                offcanvas.classList.remove("hidden");
+                setTimeout(() => {
+                    offcanvasMenu.classList.remove("-translate-x-full");
+                }, 10);
+            });
+
+            closeBtn.addEventListener("click", () => {
+                offcanvasMenu.classList.add("-translate-x-full");
+                setTimeout(() => {
+                    offcanvas.classList.add("hidden");
+                }, 300);
+            });
+
+            // Close offcanvas when clicking outside the menu
+            offcanvas.addEventListener("click", (e) => {
+                if (e.target === offcanvas) {
                     offcanvasMenu.classList.add("-translate-x-full");
                     setTimeout(() => {
                         offcanvas.classList.add("hidden");
                     }, 300);
-                });
-
-                // Close offcanvas when clicking outside the menu
-                offcanvas.addEventListener("click", (e) => {
-                    if (e.target === offcanvas) {
-                        offcanvasMenu.classList.add("-translate-x-full");
-                        setTimeout(() => {
-                            offcanvas.classList.add("hidden");
-                        }, 300);
-                    }
-                });
-            }
-        });
+                }
+            });
+        }
     </script>
+
     <script>
         // Mobile services dropdown toggle (offcanvas)
         (function() {
@@ -503,3 +1316,5 @@
         })();
     </script>
 </body>
+
+</html>
