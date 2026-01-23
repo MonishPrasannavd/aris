@@ -1,30 +1,7 @@
 
       // All functionality wrapped in DOMContentLoaded
       document.addEventListener('DOMContentLoaded', function() {
-        // Swiper initialization
-        const swiper = new Swiper(".team-container", {
-          direction: "horizontal",
-          loop: true,
-          spaceBetween: 20,
-          slidesPerView: 1,
-          centeredSlides: false,
-          speed: 1000,
-          loopAdditionalSlides: 5,
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          },
-          breakpoints: {
-            640: { slidesPerView: 1, spaceBetween: 18 },
-            768: { slidesPerView: 2, spaceBetween: 20 },
-            1024: { slidesPerView: 3, spaceBetween: 24 },
-            1280: { slidesPerView: 4, spaceBetween: 40 },
-          },
-          pagination: false,
-          navigation: false,
-          scrollbar: false,
-        });
+        // Team container swiper removed - using static grid layout instead
 
         const clientsSwiper = new Swiper(".clients-swiper", {
           direction: "horizontal",
