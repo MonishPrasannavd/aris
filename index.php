@@ -594,7 +594,7 @@
     </div>
   </section> -->
 
-  <section aria-label="Scrolling contact band" class="">
+  <!-- <section aria-label="Scrolling contact band" class="">
     <div class="relative bg-[#5956E9] text-white">
       <div class="absolute inset-0 opacity-20 pointer-events-none" style="
             background: radial-gradient(
@@ -650,7 +650,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Newsletter CTA + Scrolling Contact Band End -->
 
   <?php include "includes/footer.php" ?>

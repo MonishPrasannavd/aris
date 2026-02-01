@@ -14,7 +14,7 @@
 <body>
 
     <!-- Responsive Navbar Start -->
-     <?php include "includes/header.php" ?>
+     <?php include 'includes/header.php'; ?>
 
 
     <!-- Contact Hero Section -->
@@ -66,8 +66,7 @@
                         </span>
                         <div>
                             <!-- <p class="text-xs uppercase tracking-wide text-gray-500">Address</p> -->
-                            <p class="mt-1 text-gray-900 font-semibold leading-snug">1234, Madhapur, Hyderabad,<br>
-                                Telangana 123456</p>
+                            <p class="mt-1 text-gray-900 font-semibold leading-snug"><a href="#"></a></p>
                         </div>
                     </div>
                 </div>
@@ -151,17 +150,17 @@
 
     <!-- Map Section -->
 
-    <section class="bg-white">
+    <!-- <section class="bg-white">
         <div class="max-w-9xl mx-auto">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.3323462019694!2d78.38155857493605!3d17.443800083453073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93d2ab1c87d7%3A0xf373a34d2a3b635c!2sDwaraka%20One%20-%20Best%20Serviced%20Office%20Spaces%20in%20Hyderabad!5e0!3m2!1sen!2sin!4v1755707438106!5m2!1sen!2sin"
                 width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </section>
+    </section> -->
 
     <!-- Newsletter CTA + Scrolling Contact Band End -->
-    <section aria-label="Scrolling contact band" class="">
+    <!-- <section aria-label="Scrolling contact band" class="">
         <div class="relative bg-[#5956E9] text-white">
             <div class="absolute inset-0 opacity-20 pointer-events-none" style="
           background: radial-gradient(
@@ -217,9 +216,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Footer Start -->
-     <?php include "includes/footer.php" ?>
+     <?php include 'includes/footer.php'; ?>
     <!-- Footer End -->
 
     <script>

@@ -14,17 +14,17 @@
 <body>
 
     <!-- Responsive Navbar Start -->
-     <?php include "includes/header.php" ?>
+     <?php include 'includes/header.php'; ?>
 
     <!-- team Hero Section -->
     <section class="bg-white">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
             <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 text-center tracking-tight leading-snug">
-                Service Details</h1>
+                Advisory / Consulting</h1>
             <div class="mt-4 flex justify-center">
                 <div
                     class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-1 text-sm text-gray-600">
-                    <p class="text-gray-900">Advisory / Consulting</p>
+                    <a href="services.php" class="text-blue-600">Services</a>
                     <span class="text-gray-400"><img src="Images/servicepage/breadcum.svg" alt=""></span>
                     <span class="text-blue-600 font-medium"><a href="financial_reporting.php">Financial Reporting Advisory</a></span>
                 </div>
@@ -38,8 +38,14 @@
     <!-- Automation Services Section -->
     <section class="bg-white py-2 lg:py-2">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+                <!-- Left side navigation -->
+                <div class="lg:col-span-1 order-last lg:order-first">
+                    <?php include 'includes/servicenav.php'; ?>
+                </div>
+            <div class="lg:col-span-3 order-first lg:order-last">
             <!-- Section Header -->
-            <div class="text-center mb-16">
+            <div class="hidden text-center mb-16">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                     Advisory / Consulting
                 </h2>
@@ -191,6 +197,8 @@
                     </div> -->
                 </div>
             </div>
+            </div>
+            </div>
 
             <!-- Services Grid -->
         </div>
@@ -262,7 +270,7 @@
     </section> -->
 
     <!-- Newsletter CTA + Scrolling Contact Band End -->
-    <section aria-label="Scrolling contact band" class="">
+    <!-- <section aria-label="Scrolling contact band" class="">
         <div class="relative bg-[#5956E9] text-white">
             <div class="absolute inset-0 opacity-20 pointer-events-none" style="
           background: radial-gradient(
@@ -318,9 +326,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Footer Start -->
-     <?php include "includes/footer.php" ?>
+     <?php include 'includes/footer.php'; ?>
     <!-- Footer End -->
 
     <!-- JavaScript for Tabs -->

@@ -20,11 +20,11 @@
     <section class="bg-white">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
             <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 text-center tracking-tight leading-snug">
-                Service Details</h1>
+               Payroll Outsourcing</h1>
             <div class="mt-4 flex justify-center">
                 <div
                     class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-1 text-sm text-gray-600">
-                    <p class="text-gray-900">Payroll Outsourcing</p>
+                    <a href="managed_services.php" class="text-blue-600">Managed Services</a>
                     <span class="text-gray-400"><img src="Images/servicepage/breadcum.svg" alt=""></span>
                     <span class="text-blue-600 font-medium"><a href="financial_reporting.php">Financial Reporting Advisory</a></span>
                 </div>
@@ -38,24 +38,12 @@
     <!-- Automation Services Section -->
     <section class="bg-white py-2 lg:py-2">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- Section Header -->
-            <div class="text-center mb-16">
-                <!-- <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                    Managed Services
-                </h2> -->
-
-                <!-- Responsive Tabs -->
-                <div class="grid grid-cols-1 md:flex md:flex-wrap justify-center gap-3 mb-8">
-                    <!-- <button
-                        class="tab-button bg-blue-600 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none"
-                        data-tab="erp">
-                        Payroll Outsourcing
-                    </button> -->
-
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+                <!-- Left side navigation -->
+                <div class="lg:col-span-1 order-last lg:order-first">
+                    <?php include 'includes/servicenav.php'; ?>
                 </div>
-                <!-- <hr class="max-w-full lg:max-w-[84.375rem] mx-auto"> -->
-            </div>
-
+            <div class="lg:col-span-3 order-first lg:order-last">
             <!-- Tab Content -->
             <div class="mb-16">
                 <!-- Accounting Outsourcing Implementation Tab -->
@@ -63,10 +51,10 @@
                     <div class="grid grid-cols-1 lg:grid-cols-1">
                         <!-- Left Section: ERP Services Description -->
                         <div class="px-8 py-4 lg:px-12 mb-5">
-                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                                Don't let payroll headaches hold your business back. Partner with ARSI and experience
-                                the convenience and reliability of our payroll services
-                            </h3>
+                            <p class="text-xl text-gray-700 leading-relaxed mb-3">
+                                <b>Don't let payroll headaches hold your business back. Partner with ARSI and experience
+                                the convenience and reliability of our payroll services</b>
+                            </p>
                             <p class="text-md text-gray-700 leading-relaxed">
                                 Managing payroll is a complex and time-consuming task for businesses of all sizes.
                                 That's why we offer a range of efficient and reliable solutions to help you streamline
@@ -87,9 +75,9 @@
                         </div>
                     </div>
 
-                    <div class="grid grid-col-1 md:grid-cols-2 gap-0">
+                    <div class="grid grid-col-1 gap-0">
 
-                        <div class="px-8 py-4 lg:px-12 mb-5">
+                        <div class="px-8 mb-5">
                             <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
                                 Our Payroll services includes
                             </h3>
@@ -133,7 +121,7 @@
                                 </ol>
                             </div>
                         </div>
-                        <div class="px-8 py-4 lg:px-12 mb-5">
+                        <div class="px-8 mb-5">
                             <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
                                 Why Choose Us
                             </h3>
@@ -190,13 +178,13 @@
                     </div>
                 </div>
 
-                <!-- Payroll Implementation Tab -->
-                <!-- <div id="hrms" class="tab-panel hidden">
-                    
-                </div> -->
+                
 
 
             </div>
+                </div>
+            </div>
+
 
             <!-- Services Grid -->
         </div>
@@ -268,7 +256,7 @@
     </section> -->
 
     <!-- Newsletter CTA + Scrolling Contact Band End -->
-    <section aria-label="Scrolling contact band" class="">
+    <!-- <section aria-label="Scrolling contact band" class="">
         <div class="relative bg-[#5956E9] text-white">
             <div class="absolute inset-0 opacity-20 pointer-events-none" style="
           background: radial-gradient(
@@ -324,7 +312,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Footer Start -->
      <?php include 'includes/footer.php'; ?>
     <!-- Footer End -->

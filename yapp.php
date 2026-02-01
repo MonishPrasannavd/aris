@@ -20,11 +20,11 @@
     <section class="bg-white">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
             <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 text-center tracking-tight leading-snug">
-                Service Details</h1>
+                YAPP – Your Automation Pain Point</h1>
             <div class="mt-4 flex justify-center">
                 <div
                     class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-1 text-sm text-gray-600">
-                    <p class="text-gray-900">YAPP – Your Automation Pain Point</p>
+                    <a href="automation.php" class="text-blue-600">Automation</a>
                     
                     <span class="text-gray-400"><img src="Images/servicepage/breadcum.svg" alt=""></span>
                     <span class="text-blue-600 font-medium"><a href="tax_compliance.php">Tax Compliance & Tax Advisory Services</a></span>
@@ -39,15 +39,22 @@
     <!-- Automation Services Section -->
     <section class="bg-white py-2 lg:py-2">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- Section Header -->
-            <div class="text-center mb-16">
-                <!-- <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                    Automation
-                </h2> -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+                <!-- Left side navigation -->
+                <div class="lg:col-span-1 order-last lg:order-first">
+                    <?php include 'includes/servicenav.php'; ?>
+                </div>
+            <div class="lg:col-span-3 order-first lg:order-last">
 
-                <!-- Responsive Tabs -->
+            <!-- Section Header -->
+            <!-- <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+                    Automation
+                </h2>
+
+                Responsive Tabs
                 <div class="grid grid-cols-1 md:flex md:flex-wrap justify-center gap-3 mb-8">
-                    <!-- <button
+                    <button
                         class="tab-button bg-blue-600 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none"
                         data-tab="erp">
                         ERP implementation
@@ -59,65 +66,124 @@
                     </button>
                     <button class="tab-button bg-gray-100 text-gray-700 px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none" data-tab="crm">
                         CRM implementation
-                    </button> -->
-                    <!-- <button
+                    </button>
+                    <button
                         class="tab-button bg-gray-100 text-gray-700 px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none"
                         data-tab="yapp">
                         YAPP – Your Automation Pain Point
-                    </button> -->
+                    </button>
                 </div>
-                <!-- <hr class="max-w-full lg:max-w-[84.375rem] mx-auto"> -->
-            </div>
+                <hr class="max-w-full lg:max-w-[84.375rem] mx-auto">
+            </div> -->
 
             <!-- Tab Content -->
             <div class="mb-16">
                 <!-- ERP Implementation Tab -->
                 <div id="erp" class="tab-panel">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-2">
+                    <div class="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-2">
                         <!-- Left Section: ERP Services Description -->
-                        <div class="px-8 py-4 lg:px-8 mb-5">
+                        <div class="px-8 lg:px-8">
                             <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                                Streamline Operations. Drive Growth. Empower Your Business
+                                Struggling to Automate? You're Not Alone.
                             </h3>
                             <p class="text-md text-gray-700 leading-relaxed mb-6">
-                                At ARSI, we specialize in end-to-end ERP implementation services that help businesses
-                                unify their processes, enhance productivity, and gain real-time insights. Whether you're
-                                upgrading from legacy systems or adopting ERP for the first time, our experienced team
-                                ensures a seamless transition tailored to your unique business needs.
+                               Automation promises efficiency, scalability, and cost savings — but for many businesses, the journey is anything but smooth. At <b>[Your Company Name]</b>, we understand the frustration of failed automation projects, disconnected tools, and processes that still rely on manual effort. This page is for you — if you're stuck, overwhelmed, or unsure where to begin.
                             </p>
 
                         </div>
 
                         <!-- Right Section: ERP Platforms Supported -->
-                        <div class="px-8 py-4 lg:px-12 mb-5">
+                        <div class="px-8 lg:px-8 mb-5">
+                            <div class="space-y-4 mb-5">
+                                 <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+                                Common Automation Pain Points We Solve
+                                </h3>
+                                    <ol class="ps-0">
+                                        <li class="before:content-['1'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Manual, Time-Consuming Processes
+                                        </li>
+                                        <p class="text-gray-600 text-medium">
+                                            Are your teams still juggling spreadsheets, email chains, or repetitive tasks? We identify and automate the
+                                            bottlenecks that slow your business down.
+                                        </p>
+
+                                        <li class="before:content-['2'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Disconnected Systems & Tools
+                                        </li>
+                                        <p class="text-gray-600 text-medium">
+                                            Using multiple platforms that don’t “talk” to each other? We design integrated automation workflows that
+                                            eliminate silos and data inconsistencies.
+                                        </p>
+
+                                        <li class="before:content-['3'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Lack of Visibility & Control
+                                        </li>
+                                        <p class="text-gray-600 text-medium">
+                                            Struggling to get real-time insights into operations, tasks, or customer interactions? We implement dashboards
+                                            and reporting that put you back in control.
+                                        </p>
+
+                                        <li class="before:content-['4'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Failed or Stalled Automation Initiatives
+                                        </li>
+                                        <p class="text-gray-600 text-medium">
+                                            Have automation projects gone over budget, beyond deadlines, or failed to deliver ROI? We step in with expert
+                                            project recovery, optimization, and support.
+                                        </p>
+
+                                        <li class="before:content-['5'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                        Low User Adoption
+                                        </li>
+                                        <p class="text-gray-600 text-medium">
+                                            Even the best automation fails without buy-in. We create intuitive systems with training and change management
+                                            to ensure successful adoption.
+                                        </p>
+                                    </ol>
+                            </div>
                             <div class="space-y-4">
                                 <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
-                                    Why Choose Us?
+                                    Where Are You Feeling the Pain?
                                 </h3>
                                 <div class="space-y-4">
                                     <ul class="ps-0">
-                                        <li
-                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                            Proven Expertise</li>
+                                        <li class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Sales & Marketing
+                                        </li>
                                         <p class="text-gray-600 text-medium">
-                                            With years of hands-on experience across industries, we deliver ERP
-                                            solutions that work — on time and within budget.
+                                            Leads falling through the cracks? Campaigns not converting as expected? We streamline lead management and
+                                            automate follow-ups to improve conversions.
                                         </p>
 
-                                        <li
-                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                            Tailored Solutions</li>
+                                        <li class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            HR & Onboarding
+                                        </li>
                                         <p class="text-gray-600 text-medium">
-                                            We don’t believe in one-size-fits-all. Our implementation process is fully
-                                            customized to align with your workflows, goals, and business culture.
+                                            Too many forms, emails, or approval steps? We simplify hiring and onboarding workflows to save time and reduce
+                                            errors.
                                         </p>
 
-                                        <li
-                                            class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                            End-to-End Support</li>
+                                        <li class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Finance
+                                        </li>
                                         <p class="text-gray-600 text-medium">
-                                            From discovery and planning to training and post-launch support, we’re with
-                                            you every step of the way.
+                                            Manual invoice processing or slow reconciliations? We automate financial workflows for faster, more accurate
+                                            operations.
+                                        </p>
+
+                                        <li class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Customer Support
+                                        </li>
+                                        <p class="text-gray-600 text-medium">
+                                            Repetitive ticket handling and delayed responses? We implement smart automation to improve response times and
+                                            customer satisfaction.
+                                        </p>
+
+                                        <li class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                            Operations
+                                        </li>
+                                        <p class="text-gray-600 text-medium">
+                                            Inefficient workflows and missed steps slowing you down? We optimize and automate processes to keep operations
+                                            running smoothly.
                                         </p>
                                     </ul>
                                 </div>
@@ -134,77 +200,55 @@
                                 class="rounded-2xl w-full h-full">
                         </div>
                     </div>
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5">
+                    <div class="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-5">
                         <!-- Left Section: ERP Services Description -->
 
                         <div class="px-8 py-4 lg:px-12 mb-5">
                             <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
-                                Our ERP Implementation Process
+                               Our Approach to Fixing Automation Challenges
                             </h3>
                             <div class="space-y-4">
                                 <ol class="ps-0">
-                                    <li
-                                        class="before:content-['1'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Discovery & Needs Assessment</li>
-                                    <p class="text-gray-600 text-medium">
-                                        We begin by understanding your business processes, pain points, and goals to
-                                        define the right ERP strategy.
+    <li class="before:content-['1'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+        Listen First
+    </li>
+    <p class="text-gray-600 text-medium">
+        We start by understanding your pain points, workflows, and business goals before recommending any automation.
+    </p>
 
-                                    </p>
-                                    <li
-                                        class="before:content-['2'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        System Selection</li>
-                                    <p class="text-gray-600 text-medium">
-                                        We help you choose the best ERP platform for your industry and scale — whether
-                                        it’s SAP, Oracle, Microsoft Dynamics, NetSuite, or others.
-                                    </p>
-                                    <li
-                                        class="before:content-['3'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Planning & Roadmap</li>
-                                    <p class="text-gray-600 text-medium">
-                                        Our team develops a detailed implementation plan, complete with timelines,
-                                        milestones, and resource allocation.
-                                    </p>
-                                    <li
-                                        class="before:content-['4'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Customization & Integration</li>
-                                    <p class="text-gray-600 text-medium">
-                                        We tailor the ERP system to your needs and integrate it with existing systems
-                                        like CRM, HR, finance, or supply chain.
-                                    </p>
-                                    <li
-                                        class="before:content-['5'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Data Migration</li>
-                                    <p class="text-gray-600 text-medium">
-                                        We ensure a secure, accurate transfer of your historical data into the new ERP
-                                        system.
-                                    </p>
-                                    <li
-                                        class="before:content-['6'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Testing & Quality Assurance</li>
-                                    <p class="text-gray-600 text-medium">
-                                        Rigorous testing is conducted to ensure every module functions flawlessly before
-                                        going live.
-                                    </p>
-                                    <li
-                                        class="before:content-['7'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Training & Change Management</li>
-                                    <p class="text-gray-600 text-medium">
-                                        We equip your team with the training and tools they need to adapt and thrive in
-                                        the new ERP environment.
-                                    </p>
-                                    <li
-                                        class="before:content-['8'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Go-Live & Ongoing Support</li>
-                                    <p class="text-gray-600 text-medium">
-                                        Once live, we continue to monitor performance, address issues, and provide
-                                        updates as needed.
-                                    </p>
-                                </ol>
+    <li class="before:content-['2'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+        Audit & Assess
+    </li>
+    <p class="text-gray-600 text-medium">
+        Our experts evaluate your current systems, tools, and processes to uncover inefficiencies and root causes.
+    </p>
+
+    <li class="before:content-['3'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+        Design Smarter Workflows
+    </li>
+    <p class="text-gray-600 text-medium">
+        We design customized automation strategies that align with your business — not the other way around.
+    </p>
+
+    <li class="before:content-['4'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+        Implement & Integrate
+    </li>
+    <p class="text-gray-600 text-medium">
+        Using tools like Zapier, Power Automate, UiPath, Make, or custom scripts, we build scalable, reliable automations.
+    </p>
+
+    <li class="before:content-['5'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+        Train & Support
+    </li>
+    <p class="text-gray-600 text-medium">
+        Your team receives hands-on training, clear documentation, and post-launch support to ensure long-term success.
+    </p>
+</ol>
+
                             </div>
                         </div>
                         <!-- Right Section: ERP Platforms Supported -->
-                        <div class="px-8 py-4 lg:px-12 mb-5">
+                        <!-- <div class="px-8 py-4 lg:px-12 mb-5">
                             <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
                                 ERP Platforms We Support
                             </h3>
@@ -265,7 +309,7 @@
                                     <span class="text-md font-bold">Enhanced collaboration across departments</span>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
 
 
@@ -284,12 +328,12 @@
 
                     <div class="px-8 py-4 lg:px-12 mb-5 text-center">
                         <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-                            Ready to Transform Your Business?
+                            Let’s Turn Pain Into Performance
+
                         </h3>
                         <div class="space-y-4">
                             <p class="text-md text-gray-700 leading-relaxed">
-                                Let us guide you through a successful ERP journey. Contact us today for a free
-                                consultation and see how we can help your business scale smarter and faster.
+                                Don’t let automation become another headache. Whether you’re just starting or trying to fix what’s broken, we’re here to help. Let’s talk about your automation pain points — and how we can eliminate them.
                             </p>
                         </div>
                     </div>
@@ -1115,6 +1159,9 @@
                 </div>
             </div>
 
+                </div>  
+                </div>
+
             <!-- Services Grid -->
         </div>
     </section>
@@ -1122,7 +1169,7 @@
 
 
     <!-- Newsletter CTA + Scrolling Contact Band End -->
-    <section aria-label="Scrolling contact band" class="">
+    <!-- <section aria-label="Scrolling contact band" class="">
         <div class="relative bg-[#5956E9] text-white">
             <div class="absolute inset-0 opacity-20 pointer-events-none" style="
           background: radial-gradient(
@@ -1178,7 +1225,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Footer Start -->
     <?php include 'includes/footer.php'; ?>
     <!-- Footer End -->

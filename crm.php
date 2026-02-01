@@ -20,11 +20,11 @@
     <section class="bg-white">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
             <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 text-center tracking-tight leading-snug">
-                Service Details</h1>
+                CRM Implementation</h1>
             <div class="mt-4 flex justify-center">
                 <div
                     class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-1 text-sm text-gray-600">
-                    <p class="text-gray-900">CRM Implementation</p>
+                    <a href="automation.php" class="text-blue-600">Automation</a>
                     <span class="text-gray-400"><img src="Images/servicepage/breadcum.svg" alt=""></span>
                     <span class="text-blue-600 font-medium"><a href="yapp.php">YAPP – Your Automation Pain Point</a></span>
                 </div>
@@ -38,8 +38,14 @@
     <!-- Automation Services Section -->
     <section class="bg-white py-2 lg:py-2">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+                <!-- Left side navigation -->
+                <div class="lg:col-span-1 order-last lg:order-first">
+                    <?php include 'includes/servicenav.php'; ?>
+                </div>
+            <div class="lg:col-span-3 order-first lg:order-last">
             <!-- Section Header -->
-            <div class="text-center mb-16">
+            <div class="hidden text-center mb-16">
                 <!-- <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                     Automation
                 </h2> -->
@@ -72,29 +78,29 @@
             <div class="mb-16">
                 <!-- ERP Implementation Tab -->
                 <div id="erp" class="tab-panel">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-2">
+                    <div class="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-2">
                         <!-- Left Section: ERP Services Description -->
                         <div class="px-8 py-4 lg:px-8 mb-5">
                             <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                                Streamline Operations. Drive Growth. Empower Your Business
+                               Build Stronger Customer Relationships with Smarter Solutions
                             </h3>
                             <p class="text-md text-gray-700 leading-relaxed mb-6">
-                                At ARSI, we specialize in end-to-end ERP implementation services that help businesses
-                                unify their processes, enhance productivity, and gain real-time insights. Whether you're
-                                upgrading from legacy systems or adopting ERP for the first time, our experienced team
-                                ensures a seamless transition tailored to your unique business needs.
+                               At <b>ARSI</b>, we help businesses transform the way they manage sales, service, and customer relationships through end-to-end <b>CRM implementation services</b>. From strategy to execution, our team ensures a seamless CRM rollout that enhances your customer experience, streamlines your sales process, and drives measurable business growth.
                             </p>
 
                         </div>
 
                         <!-- Right Section: ERP Platforms Supported -->
-                        <div class="px-8 py-4 lg:px-12 mb-5">
+                        <div class="px-8 py-4 lg:px-8 mb-5">
                             <div class="space-y-4">
                                 <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
-                                    Why Choose Us?
+                                    Why CRM Implementation Matters
                                 </h3>
                                 <div class="space-y-4">
-                                    <ul class="ps-0">
+                                    <p class="text-gray-600 text-medium">
+                                           In today’s competitive market, <b>customer experience is everything</b>. A well-implemented CRM (Customer Relationship Management) system allows your business to centralize customer data, automate sales and service workflows, and provide personalized experiences that build loyalty and drive revenue.
+                                        </p>
+                                    <!-- <ul class="ps-0">
                                         <li
                                             class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
                                             Proven Expertise</li>
@@ -118,7 +124,7 @@
                                             From discovery and planning to training and post-launch support, we’re with
                                             you every step of the way.
                                         </p>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
@@ -133,141 +139,205 @@
                                 class="rounded-2xl w-full h-full">
                         </div>
                     </div>
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5">
+                    <div class="grid grid-cols-1 lg:grid-cols-1 gap-8 lg:gap-5">
                         <!-- Left Section: ERP Services Description -->
 
-                        <div class="px-8 py-4 lg:px-12 mb-5">
+                        <div class="px-8 lg:px-8">
                             <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
-                                Our ERP Implementation Process
+                                Our CRM Implementation Services Include:
                             </h3>
                             <div class="space-y-4">
                                 <ol class="ps-0">
-                                    <li
-                                        class="before:content-['1'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Discovery & Needs Assessment</li>
+                                    <li class="before:content-['1'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                        CRM Strategy & Planning
+                                    </li>
                                     <p class="text-gray-600 text-medium">
-                                        We begin by understanding your business processes, pain points, and goals to
-                                        define the right ERP strategy.
+                                        We assess your current customer management processes and define a CRM roadmap aligned with your business goals.
+                                    </p>
 
-                                    </p>
-                                    <li
-                                        class="before:content-['2'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        System Selection</li>
+                                    <li class="before:content-['2'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                        CRM Platform Selection
+                                    </li>
                                     <p class="text-gray-600 text-medium">
-                                        We help you choose the best ERP platform for your industry and scale — whether
-                                        it’s SAP, Oracle, Microsoft Dynamics, NetSuite, or others.
+                                        Whether you need Salesforce, HubSpot, Microsoft Dynamics, Zoho, or another solution, we help you select the
+                                        best-fit CRM based on your industry, size, and requirements.
                                     </p>
-                                    <li
-                                        class="before:content-['3'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Planning & Roadmap</li>
+
+                                    <li class="before:content-['3'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                        System Design & Configuration
+                                    </li>
                                     <p class="text-gray-600 text-medium">
-                                        Our team develops a detailed implementation plan, complete with timelines,
-                                        milestones, and resource allocation.
+                                        We configure your CRM with custom fields, workflows, dashboards, and modules tailored to how your business
+                                        operates.
                                     </p>
-                                    <li
-                                        class="before:content-['4'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Customization & Integration</li>
+
+                                    <li class="before:content-['4'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                        Data Migration & Integration
+                                    </li>
                                     <p class="text-gray-600 text-medium">
-                                        We tailor the ERP system to your needs and integrate it with existing systems
-                                        like CRM, HR, finance, or supply chain.
+                                        Secure data migration from legacy systems along with seamless integration with ERP, marketing automation,
+                                        email, and support platforms.
                                     </p>
-                                    <li
-                                        class="before:content-['5'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Data Migration</li>
+
+                                    <li class="before:content-['5'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                        User Training & Adoption
+                                    </li>
                                     <p class="text-gray-600 text-medium">
-                                        We ensure a secure, accurate transfer of your historical data into the new ERP
-                                        system.
+                                        Our hands-on training ensures your teams are confident and productive with the CRM from day one.
                                     </p>
-                                    <li
-                                        class="before:content-['6'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Testing & Quality Assurance</li>
+
+                                    <li class="before:content-['6'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
+                                        Post-Implementation Support
+                                    </li>
                                     <p class="text-gray-600 text-medium">
-                                        Rigorous testing is conducted to ensure every module functions flawlessly before
-                                        going live.
-                                    </p>
-                                    <li
-                                        class="before:content-['7'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Training & Change Management</li>
-                                    <p class="text-gray-600 text-medium">
-                                        We equip your team with the training and tools they need to adapt and thrive in
-                                        the new ERP environment.
-                                    </p>
-                                    <li
-                                        class="before:content-['8'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                        Go-Live & Ongoing Support</li>
-                                    <p class="text-gray-600 text-medium">
-                                        Once live, we continue to monitor performance, address issues, and provide
-                                        updates as needed.
+                                        We provide ongoing support, performance monitoring, and system optimization to keep your CRM running smoothly.
                                     </p>
                                 </ol>
+
                             </div>
                         </div>
                         <!-- Right Section: ERP Platforms Supported -->
-                        <div class="px-8 py-4 lg:px-12 mb-5">
+                        <div class="px-8 lg:px-8 mb-5">
                             <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
-                                ERP Platforms We Support
+                                CRM Features We Enable
                             </h3>
-                            <div class="space-y-4">
+                           <div class="space-y-4">
                                 <div class="flex items-center gap-4">
                                     <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">Oracle ERP Cloud
-                                    </span>
-                                </div>
-                                <div class="flex items-center gap-4">
-                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">SAP S/4HANA
-                                    </span>
+                                    <span class="text-md font-bold">Lead & Opportunity Management</span>
                                 </div>
 
                                 <div class="flex items-center gap-4">
                                     <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">Microsoft Dynamics 365</span>
+                                    <span class="text-md font-bold">Sales Pipeline Automation</span>
                                 </div>
 
                                 <div class="flex items-center gap-4">
                                     <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">NetSuite</span>
+                                    <span class="text-md font-bold">Customer Data Centralization</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Email & Marketing Automation</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Customer Service & Support Tickets</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Task Management & Reminders</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Real-Time Reporting & Dashboards</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Mobile CRM Access</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Role-Based Access Controls</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">
+                                        Third-Party Integrations (Outlook, Gmail, Slack, etc.)
+                                    </span>
+                                </div>
+                           </div>
+
+                           <div class="space-y-4 mt-6">
+                                <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+                                    Platforms We Specialize In
+                                </h3>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Salesforce CRM</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">HubSpot CRM</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Microsoft Dynamics 365 CRM</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Zoho CRM</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Pipedrive CRM</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Freshsales CRM</span>
+                                </div>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">SugarCRM</span>
                                 </div>
 
                                 <div class="flex items-center gap-4">
                                     <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
                                     <span class="text-md font-bold">And more...</span>
                                 </div>
-                            </div>
+                           </div>
+
                             <div class="space-y-4 mt-6">
                                 <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
                                     Benefits of a Successful ERP Implementation
                                 </h3>
                                 <div class="flex items-center gap-4">
                                     <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">Improved operational efficiency
+                                    <span class="text-md font-bold">Improved sales forecasting and performance
+
                                     </span>
                                 </div>
                                 <div class="flex items-center gap-4">
                                     <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">Real-time business insights
+                                    <span class="text-md font-bold">Centralized and accessible customer data
+
                                     </span>
                                 </div>
 
                                 <div class="flex items-center gap-4">
                                     <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">Reduced manual errors and redundancy</span>
+                                    <span class="text-md font-bold">Better customer service and response times
+                                    </span>
                                 </div>
 
                                 <div class="flex items-center gap-4">
                                     <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">Scalable processes for future growth</span>
+                                    <span class="text-md font-bold">Increased customer retention and loyalty</span>
                                 </div>
 
                                 <div class="flex items-center gap-4">
                                     <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">Enhanced collaboration across departments</span>
+                                    <span class="text-md font-bold">Streamlined communication and collaboration</span>
+                                </div>
+                                <div class="flex items-center gap-4">
+                                    <div class="w-2 h-2 bg-blue-600 rounded-full flex-shrink-0"></div>
+                                    <span class="text-md font-bold">Real-time analytics and actionable insights</span>
                                 </div>
                             </div>
                         </div>
-
-
-
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
@@ -283,12 +353,12 @@
 
                     <div class="px-8 py-4 lg:px-12 mb-5 text-center">
                         <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-                            Ready to Transform Your Business?
+                            Ready to Transform Your Customer Relationships?
                         </h3>
                         <div class="space-y-4">
                             <p class="text-md text-gray-700 leading-relaxed">
-                                Let us guide you through a successful ERP journey. Contact us today for a free
-                                consultation and see how we can help your business scale smarter and faster.
+                                Let our CRM experts help you unlock the full potential of your customer data. Whether you're implementing a new CRM or optimizing an existing one, we ensure a smooth, efficient, and results-driven implementation.
+
                             </p>
                         </div>
                     </div>
@@ -1113,7 +1183,8 @@
                     </div>
                 </div>
             </div>
-
+</div>
+</div>
             <!-- Services Grid -->
         </div>
     </section>
@@ -1121,7 +1192,7 @@
 
 
     <!-- Newsletter CTA + Scrolling Contact Band End -->
-    <section aria-label="Scrolling contact band" class="">
+    <!-- <section aria-label="Scrolling contact band" class="">
         <div class="relative bg-[#5956E9] text-white">
             <div class="absolute inset-0 opacity-20 pointer-events-none" style="
           background: radial-gradient(
@@ -1177,7 +1248,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Footer Start -->
    <?php include 'includes/footer.php'; ?>
     <!-- Footer End -->

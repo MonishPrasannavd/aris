@@ -18,7 +18,7 @@
 <body>
 
     <!-- Responsive Navbar Start -->
-      <?php include "includes/header.php" ?>
+      <?php include 'includes/header.php'; ?>
 
 
     <!-- team Hero Section -->
@@ -77,7 +77,7 @@
 
 
     <!-- Newsletter CTA + Scrolling Contact Band End -->
-    <section aria-label="Scrolling contact band" class="">
+    <!-- <section aria-label="Scrolling contact band" class="">
         <div class="relative bg-[#5956E9] text-white">
             <div class="absolute inset-0 opacity-20 pointer-events-none" style="
           background: radial-gradient(
@@ -133,9 +133,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Footer Start -->
-     <?php include "includes/footer.php" ?>
+     <?php include 'includes/footer.php'; ?>
     <!-- Footer End -->
 
     <script>

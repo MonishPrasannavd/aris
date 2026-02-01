@@ -20,11 +20,11 @@
     <section class="bg-white">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
             <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 text-center tracking-tight leading-snug">
-                Service Details</h1>
+                Accounting Outsourcing</h1>
             <div class="mt-4 flex justify-center">
                 <div
                     class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-1 text-sm text-gray-600">
-                    <p class="text-gray-900">Accounting Outsourcing</p>
+                    <a href="managed_services.php" class="text-blue-600">Managed Services</a>
                     <span class="text-gray-400"><img src="Images/servicepage/breadcum.svg" alt=""></span>
                     <span class="text-blue-600 font-medium"><a href="payroll_outsourcing.php">Payroll Outsourcing</a></span>
                 </div>
@@ -38,36 +38,20 @@
     <!-- Automation Services Section -->
     <section class="bg-white py-2 lg:py-2">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- Section Header -->
-            <div class="text-center mb-16">
-                <!-- <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                    Managed Services
-                </h2> -->
-
-                <!-- Responsive Tabs -->
-                <div class="grid grid-cols-1 md:flex md:flex-wrap justify-center gap-3 mb-8">
-                    <!-- <button
-                        class="tab-button bg-blue-600 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none"
-                        data-tab="erp">
-                        Accounting Outsourcing
-                    </button> -->
-                    <!-- <button
-                        class="tab-button bg-gray-100 text-gray-700 px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none"
-                        data-tab="hrms">
-                        Payroll Outsourcing
-                    </button> -->
-
+            
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+                <!-- Left side navigation -->
+                <div class="lg:col-span-1 order-last lg:order-first">
+                    <?php include 'includes/servicenav.php'; ?>
                 </div>
-                <!-- <hr class="max-w-full lg:max-w-[84.375rem] mx-auto"> -->
-            </div>
-
+            <div class="lg:col-span-3 order-first lg:order-last">
             <!-- Tab Content -->
             <div class="mb-16">
                 <!-- Accounting Outsourcing Implementation Tab -->
                 <div id="erp" class="tab-panel">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+                    <div class="grid grid-cols-1 gap-8 lg:gap-12">
                         <!-- Left Section: ERP Services Description -->
-                        <div class="px-8 py-4 lg:px-12 mb-5">
+                        <div class="px-8">
                             <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
                                 Focus on Growth. Leave the Numbers to Us.
                             </h3>
@@ -79,7 +63,7 @@
                         </div>
 
                         <!-- Right Section: ERP Platforms Supported -->
-                        <div class="px-8 py-4 lg:px-12 mb-5">
+                        <div class="px-8 mb-5">
                             <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
                                 Why Outsource Your Accounting?
                             </h3>
@@ -254,143 +238,11 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Payroll Implementation Tab -->
-                <div id="hrms" class="tab-panel hidden">
-                    <div class="grid grid-cols-1 lg:grid-cols-1">
-                        <!-- Left Section: ERP Services Description -->
-                        <div class="px-8 py-4 lg:px-12 mb-5">
-                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                                Don't let payroll headaches hold your business back. Partner with ARSI and experience
-                                the convenience and reliability of our payroll services
-                            </h3>
-                            <p class="text-md text-gray-700 leading-relaxed">
-                                Managing payroll is a complex and time-consuming task for businesses of all sizes.
-                                That's why we offer a range of efficient and reliable solutions to help you streamline
-                                your payroll processes and focus on what matters most – growing your business. We offer
-                                flexible and comprehensive payroll services using our years of experience, which may
-                                curtail significant administrative burden for you.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
-                        <div class="col-span-1 rounded lg:ps-8 py-4 lg:ps-12">
-                            <img src="Images/automation_services/erp_left.webp" alt=""
-                                class="rounded-2xl w-full h-auto">
-                        </div>
-                        <div class="col-span-2 rounded py-4 lg:px-12">
-                            <img src="Images/automation_services/erp_right.webp" alt=""
-                                class="rounded-2xl w-full h-full">
-                        </div>
-                    </div>
-
-                    <div class="grid grid-col-1 md:grid-cols-2 gap-0">
-
-                        <div class="px-8 py-4 lg:px-12 mb-5">
-                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-                                Our Payroll services includes
-                            </h3>
-                            <div class="space-y-4">
-                                <ol class="list-decimal ps-8">
-                                    <li class="font-bold text-md mb-2 mt-2">Payroll Processing: </li>
-                                    <p class="text-gray-600 text-medium">
-                                        Our expert team will handle all aspects of payroll processing, from calculating
-                                        salaries and deductions to generating payslips and reports. With our automated
-                                        systems and meticulous attention to detail, you can be rest assured that your
-                                        employees will be paid accurately and on time, every time.
-                                    </p>
-                                    <li class="font-bold text-md mb-2 mt-2">Compliance Management: </li>
-                                    <p class="text-gray-600 text-medium">
-                                        Staying compliant with the latest tax regulations and labor laws is crucial for
-                                        any business. Our dedicated compliance team will ensure that your payroll
-                                        practices adhere to all relevant statutes and requirements, minimizing the risk
-                                        of penalties and legal issues.
-                                    </p>
-                                    <li class="font-bold text-md mb-2 mt-2">Statutory Compliance:</li>
-                                    <p class="text-gray-600 text-medium">
-                                        We'll take care of statutory compliance matters such as PF, ESI, PT, and TDS,
-                                        ensuring that your business remains fully compliant with all government
-                                        regulations. Our in-depth knowledge of Indian labor laws enables us to provide
-                                        tailored solutions that meet your specific needs.
-                                    </p>
-                                    <li class="font-bold text-md mb-2 mt-2">Employee Self-Service Portal:</li>
-                                    <p class="text-gray-600 text-medium">
-                                        Empower your employees with our user-friendly self-service portal, where they
-                                        can access their pay stubs, tax documents, and other important information
-                                        anytime, anywhere. This not only enhances transparency but also reduces
-                                        administrative burden on your HR team.
-                                    </p>
-                                    <li class="font-bold text-md mb-2 mt-2">Customized Reporting:</li>
-                                    <p class="text-gray-600 text-medium">
-                                        Gain valuable insights into your payroll data with our customized reporting
-                                        solutions. Whether you need detailed analyses of payroll expenses, employee
-                                        attendance, or tax liabilities, our reports will provide you with the
-                                        information you need to make informed decisions
-                                    </p>
-                                </ol>
-                            </div>
-                        </div>
-                        <div class="px-8 py-4 lg:px-12 mb-5">
-                            <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-                                Why Choose Us
-                            </h3>
-                            <div class="space-y-4">
-                                <div class="flex items-center gap-4">
-                                    <div class="w-4 h-4 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">Expertise:</span>
-                                </div>
-                                <p class="text-gray-600 font-medium">With years of experience in the industry, we have
-                                    the knowledge and expertise to handle even the most complex payroll challenges.</p>
-                                <div class="flex items-center gap-4">
-                                    <div class="w-4 h-4 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">Accuracy: </span>
-                                </div>
-                                <p class="text-gray-600 font-medium">We prioritize accuracy in everything we do,
-                                    ensuring that your payroll is processed with precision and attention to detail.</p>
-                                <div class="flex items-center gap-4">
-                                    <div class="w-4 h-4 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">Security:</span>
-                                </div>
-                                <p class="text-gray-600 font-medium">Protecting your sensitive payroll data is our top
-                                    priority. Our robust security measures safeguard your information against
-                                    unauthorized access or breaches.</p>
-                                <div class="flex items-center gap-4">
-                                    <div class="w-4 h-4 bg-blue-600 rounded-full flex-shrink-0"></div>
-                                    <span class="text-md font-bold">Scalability:</span>
-                                </div>
-                                <p class="text-gray-600 font-medium">Whether you're a small startup or a large
-                                    enterprise, our scalable solutions can accommodate your growing business needs.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-0">
-                        <div class="col-span-1 rounded lg:ps-8 py-4 lg:ps-12">
-                            <img src="Images/automation_services/erp_left_end.webp" alt=""
-                                class="rounded-2xl w-full h-auto">
-                        </div>
-                        <div class="col-span-2 rounded py-4 lg:px-12">
-                            <img src="Images/automation_services/erp_right_end.webp" alt=""
-                                class="rounded-2xl w-full h-full">
-                        </div>
-                    </div>
-                    <div class="px-8 py-4 lg:px-12 mb-5 text-center">
-                        <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 leading-tight">
-                            Lets Talk
-                        </h3>
-                        <div class="space-y-4">
-                            <p class="text-md text-gray-700 leading-relaxed">
-                                <spam><a href="contact.php" class="text-blue-600 font-bold">Contact us</a></spam> to
-                                learn more and request a personalized quote
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
 
             <!-- Services Grid -->
+             </div>
+        </div>
         </div>
     </section>
 
@@ -460,7 +312,7 @@
     </section> -->
 
     <!-- Newsletter CTA + Scrolling Contact Band End -->
-    <section aria-label="Scrolling contact band" class="">
+    <!-- <section aria-label="Scrolling contact band" class="">
         <div class="relative bg-[#5956E9] text-white">
             <div class="absolute inset-0 opacity-20 pointer-events-none" style="
           background: radial-gradient(
@@ -516,7 +368,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Footer Start -->
      <?php include 'includes/footer.php'; ?>
     <!-- Footer End -->

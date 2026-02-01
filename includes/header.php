@@ -59,78 +59,49 @@ $tax_pages = [
                 <i class="bi bi-caret-down-fill ms-2 mt-1 text-gray-600"></i>
               </a>
               <div
-                class="absolute left-0 top-full pt-1 w-64 bg-white border border-gray-200 rounded-lg  shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-200 z-40">
-                <div class="relative group/nested">
-                      <a href="managed_services.php"
-                        class="flex items-center justify-between px-6 py-3 hover:bg-gray-100
-                        <?= in_array($current_page, $managed_pages) ? 'text-violet-600 font-semibold' : 'text-gray-600'; ?>">
-                        Managed Services <i class="bi bi-caret-right-fill"></i>
-                      </a>
-
-                      <div class="absolute left-full top-0 w-64 bg-white border rounded-lg shadow-lg
-                                  opacity-0 invisible group-hover/nested:opacity-100 group-hover/nested:visible">
-                        <a href="accounting_outsourcing.php"
-                          class="block px-6 py-3 <?= $current_page=='accounting_outsourcing.php' ? 'text-violet-600 font-semibold' : 'hover:bg-gray-100'; ?>">
-                          Accounting Outsourcing
+                class="absolute top-full left-1/2 transform -translate-x-1/2 pt-1 w-max bg-white border border-gray-200 rounded-lg  shadow-lg opacity-0 group-hover:opacity-100 group-hover:visible invisible transition-opacity duration-400 z-40">
+                <div class="flex">
+                    <div class="w-64 border-r">
+                        <a href="managed_services.php" class="block px-6 py-3 font-semibold <?= in_array($current_page, $managed_pages) ? 'text-violet-600' : 'text-gray-600 hover:text-violet-600'; ?>">
+                            Managed Services
                         </a>
-                        <a href="payroll_outsourcing.php"
-                          class="block px-6 py-3 <?= $current_page=='payroll_outsourcing.php' ? 'text-violet-600 font-semibold' : 'hover:bg-gray-100'; ?>">
-                          Payroll Outsourcing
+                        <a href="accounting_outsourcing.php" class="block pl-8 pr-6 py-3 <?= $current_page=='accounting_outsourcing.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:text-violet-600'; ?>">
+                            Accounting Outsourcing
                         </a>
-                      </div>
-                </div>
-
-                <div class="relative group/nested">
-                    <a href="advisory_consulting.php"
-                      class="flex items-center justify-between px-6 py-3 hover:bg-gray-100
-                      <?= in_array($current_page, $advisory_pages) ? 'text-violet-600 font-semibold' : 'text-gray-600'; ?>">
-                      Advisory / Consulting <i class="bi bi-caret-right-fill"></i>
-                    </a>
-
-                    <div class="absolute left-full top-0 w-64 bg-white border rounded-lg shadow-lg
-                                opacity-0 invisible group-hover/nested:opacity-100 group-hover/nested:visible">
-                      <a href="financial_reporting.php"
-                        class="block px-6 py-3 <?= $current_page=='financial_reporting.php' ? 'text-violet-600 font-semibold' : 'hover:bg-gray-100'; ?>">
-                        Financial Reporting
-                      </a>
-                      <a href="virtual_cfo.php"
-                        class="block px-6 py-3 <?= $current_page=='virtual_cfo.php' ? 'text-violet-600 font-semibold' : 'hover:bg-gray-100'; ?>">
-                        Virtual CFO
-                      </a>
-                      <a href="business_consulting.php"
-                        class="block px-6 py-3 <?= $current_page=='business_consulting.php' ? 'text-violet-600 font-semibold' : 'hover:bg-gray-100'; ?>">
-                        Business Consulting
-                      </a>
+                        <a href="payroll_outsourcing.php" class="block pl-8 pr-6 py-3 <?= $current_page=='payroll_outsourcing.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:text-violet-600'; ?>">
+                            Payroll Outsourcing
+                        </a>
                     </div>
-                </div>
-
-                <div class="relative group/nested">
-                  <a href="automation.php"
-                    class="flex items-center justify-between px-6 py-3 hover:bg-gray-100
-                    <?= in_array($current_page, $automation_pages) ? 'text-violet-600 font-semibold' : 'text-gray-600'; ?>">
-                    Automation <i class="bi bi-caret-right-fill"></i>
-                  </a>
-
-                  <div class="absolute left-full top-0 w-64 bg-white border rounded-lg shadow-lg
-                              opacity-0 invisible group-hover/nested:opacity-100 group-hover/nested:visible">
-                    <a href="erp.php" class="block px-6 py-3 <?= $current_page=='erp.php' ? 'text-violet-600 font-semibold' : 'hover:bg-gray-100'; ?>">ERP</a>
-                    <a href="hrms.php" class="block px-6 py-3 <?= $current_page=='hrms.php' ? 'text-violet-600 font-semibold' : 'hover:bg-gray-100'; ?>">HRMS</a>
-                    <a href="crm.php" class="block px-6 py-3 <?= $current_page=='crm.php' ? 'text-violet-600 font-semibold' : 'hover:bg-gray-100'; ?>">CRM</a>
-                    <a href="yapp.php" class="block px-6 py-3 <?= $current_page=='yapp.php' ? 'text-violet-600 font-semibold' : 'hover:bg-gray-100'; ?>">YAPP</a>
-                  </div>
-                </div>
-                <div class="relative group/nested">
-                    <a href="tax.php"
-                      class="flex items-center justify-between px-6 py-3 hover:bg-gray-100
-                      <?= in_array($current_page, $tax_pages) ? 'text-violet-600 font-semibold' : 'text-gray-600'; ?>">
-                      Tax (Compliance & Planning) <i class="bi bi-caret-right-fill"></i>
-                    </a>
-
-                    <div class="absolute left-full top-0 w-64 bg-white border rounded-lg shadow-lg
-                                opacity-0 invisible group-hover/nested:opacity-100 group-hover/nested:visible">
-                      <a href="tax_compliance.php" class="block px-6 py-3 <?= $current_page=='tax_compliance.php' ? 'text-violet-600 font-semibold' : 'hover:bg-gray-100'; ?>">Tax Compliance</a>
-                      <a href="transaction_advisory.php" class="block px-6 py-3 <?= $current_page=='transaction_advisory.php' ? 'text-violet-600 font-semibold' : 'hover:bg-gray-100'; ?>">Transaction Advisory</a>
-                      <a href="digitsation.php" class="block px-6 py-3 <?= $current_page=='digitsation.php' ? 'text-violet-600 font-semibold' : 'hover:bg-gray-100'; ?>">Digitisation</a>
+                    <div class="w-64 border-r">
+                        <a href="advisory_consulting.php" class="block px-6 py-3 font-semibold <?= in_array($current_page, $advisory_pages) ? 'text-violet-600' : 'text-gray-600 hover:text-violet-600'; ?>">
+                            Advisory / Consulting
+                        </a>
+                        <a href="financial_reporting.php" class="block pl-8 pr-6 py-3 <?= $current_page=='financial_reporting.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:text-violet-600'; ?>">
+                            Financial Reporting
+                        </a>
+                        <a href="virtual_cfo.php" class="block pl-8 pr-6 py-3 <?= $current_page=='virtual_cfo.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:text-violet-600'; ?>">
+                            Virtual CFO
+                        </a>
+                        <a href="business_consulting.php" class="block pl-8 pr-6 py-3 <?= $current_page=='business_consulting.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:text-violet-600'; ?>">
+                            Business Consulting
+                        </a>
+                    </div>
+                    <div class="w-64 border-r">
+                        <a href="automation.php" class="block px-6 py-3 font-semibold <?= in_array($current_page, $automation_pages) ? 'text-violet-600' : 'text-gray-600 hover:text-violet-600'; ?>">
+                            Automation
+                        </a>
+                        <a href="erp.php" class="block pl-8 pr-6 py-3 <?= $current_page=='erp.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:text-violet-600'; ?>">ERP</a>
+                        <a href="hrms.php" class="block pl-8 pr-6 py-3 <?= $current_page=='hrms.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:text-violet-600'; ?>">HRMS</a>
+                        <a href="crm.php" class="block pl-8 pr-6 py-3 <?= $current_page=='crm.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:text-violet-600'; ?>">CRM</a>
+                        <a href="yapp.php" class="block pl-8 pr-6 py-3 <?= $current_page=='yapp.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:text-violet-600'; ?>">YAPP</a>
+                    </div>
+                    <div class="w-64">
+                         <a href="tax.php" class="block px-6 py-3 font-semibold <?= in_array($current_page, $tax_pages) ? 'text-violet-600' : 'text-gray-600 hover:text-violet-600'; ?>">
+                            Tax (Compliance & Planning)
+                        </a>
+                        <a href="tax_compliance.php" class="block pl-8 pr-6 py-3 <?= $current_page=='tax_compliance.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:text-violet-600'; ?>">Tax Compliance</a>
+                        <a href="transaction_advisory.php" class="block pl-8 pr-6 py-3 <?= $current_page=='transaction_advisory.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:text-violet-600'; ?>">Transaction Advisory</a>
+                        <a href="digitsation.php" class="block pl-8 pr-6 py-3 <?= $current_page=='digitsation.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:text-violet-600'; ?>">Digitisation</a>
                     </div>
                 </div>
               </div>
@@ -215,85 +186,102 @@ $tax_pages = [
       </button>
 
       <!-- SERVICES DROPDOWN -->
-      <div class="hidden flex-col space-y-4 mt-3 mb-6 pl-4" id="mobile-services-dropdown">
+  <div class="hidden flex-col mt-3 mb-6 pl-4" id="mobile-services-dropdown">
 
     <!-- MANAGED SERVICES -->
-    <div>
+    <div class="pb-4 mb-4 border-b">
       <a href="managed_services.php"
-         class="block rounded mt-3
-         <?= in_array($current_page,$managed_pages) ? 'text-violet-600 font-semibold' : 'text-gray-600'; ?>">
+         class="block rounded font-semibold
+         <?= in_array($current_page,$managed_pages) ? 'text-violet-600' : 'text-gray-600'; ?>">
         Managed Services
       </a>
 
-      <a href="accounting_outsourcing.php"
-         class="block rounded mt-3
-         <?= $current_page=='accounting_outsourcing.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
-        Accounting Outsourcing
-      </a>
+      <div class="pl-4">
+          <a href="accounting_outsourcing.php"
+             class="block rounded mt-3
+             <?= $current_page=='accounting_outsourcing.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
+            Accounting Outsourcing
+          </a>
 
-      <a href="payroll_outsourcing.php"
-         class="block rounded mt-3
-         <?= $current_page=='payroll_outsourcing.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
-        Payroll Outsourcing
-      </a>
+          <a href="payroll_outsourcing.php"
+             class="block rounded mt-3
+             <?= $current_page=='payroll_outsourcing.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
+            Payroll Outsourcing
+          </a>
+      </div>
+    </div>
+
+    <!-- ADVISORY / CONSULTING -->
+    <div class="pb-4 mb-4 border-b">
       <a href="advisory_consulting.php"
-         class="block rounded mt-3
-         <?= in_array($current_page,$advisory_pages) ? 'text-violet-600 font-semibold' : 'text-gray-600'; ?>">
+         class="block rounded font-semibold
+         <?= in_array($current_page,$advisory_pages) ? 'text-violet-600' : 'text-gray-600'; ?>">
         Advisory / Consulting
       </a>
+        <div class="pl-4">
+          <a href="financial_reporting.php"
+             class="block rounded mt-3
+             <?= $current_page=='financial_reporting.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
+            Financial Reporting
+          </a>
 
-      <a href="financial_reporting.php"
-         class="block rounded mt-3
-         <?= $current_page=='financial_reporting.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
-        Financial Reporting
-      </a>
+          <a href="virtual_cfo.php"
+             class="block rounded mt-3
+             <?= $current_page=='virtual_cfo.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
+            Virtual CFO
+          </a>
 
-      <a href="virtual_cfo.php"
-         class="block rounded mt-3
-         <?= $current_page=='virtual_cfo.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
-        Virtual CFO
-      </a>
+          <a href="business_consulting.php"
+             class="block rounded mt-3
+             <?= $current_page=='business_consulting.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
+            Business Consulting
+          </a>
+      </div>
+    </div>
 
-      <a href="business_consulting.php"
-         class="block rounded mt-3
-         <?= $current_page=='business_consulting.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
-        Business Consulting
-      </a>
+    <!-- AUTOMATION -->
+    <div class="pb-4 mb-4 border-b">
       <a href="automation.php"
-         class="block rounded mt-3
-         <?= in_array($current_page,$automation_pages) ? 'text-violet-600 font-semibold' : 'text-gray-600'; ?>">
+         class="block rounded font-semibold
+         <?= in_array($current_page,$automation_pages) ? 'text-violet-600' : 'text-gray-600'; ?>">
         Automation
       </a>
+      <div class="pl-4">
+          <a href="erp.php" class="block rounded mt-3 <?= $current_page=='erp.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">ERP</a>
+          <a href="hrms.php" class="block rounded mt-3 <?= $current_page=='hrms.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">HRMS</a>
+          <a href="crm.php" class="block rounded mt-3 <?= $current_page=='crm.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">CRM</a>
+          <a href="yapp.php" class="block rounded mt-3 <?= $current_page=='yapp.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">YAPP</a>
+      </div>
+    </div>
 
-      <a href="erp.php" class="block rounded mt-3 <?= $current_page=='erp.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">ERP</a>
-      <a href="hrms.php" class="block rounded mt-3 <?= $current_page=='hrms.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">HRMS</a>
-      <a href="crm.php" class="block rounded mt-3 <?= $current_page=='crm.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">CRM</a>
-      <a href="yapp.php" class="block rounded mt-3 <?= $current_page=='yapp.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">YAPP</a>
+    <!-- TAX -->
+    <div class="pb-4">
       <a href="tax.php"
-         class="block rounded mt-3
-         <?= in_array($current_page,$tax_pages) ? 'text-violet-600 font-semibold' : 'text-gray-600'; ?>">
+         class="block rounded font-semibold
+         <?= in_array($current_page,$tax_pages) ? 'text-violet-600' : 'text-gray-600'; ?>">
         Tax
       </a>
+      <div class="pl-4">
+          <a href="tax_compliance.php"
+             class="block rounded mt-3
+             <?= $current_page=='tax_compliance.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
+            Tax Compliance
+          </a>
 
-      <a href="tax_compliance.php"
-         class="block rounded mt-3
-         <?= $current_page=='tax_compliance.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
-        Tax Compliance
-      </a>
+          <a href="transaction_advisory.php"
+             class="block rounded mt-3
+             <?= $current_page=='transaction_advisory.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
+            Transaction Advisory
+          </a>
 
-      <a href="transaction_advisory.php"
-         class="block rounded mt-3
-         <?= $current_page=='transaction_advisory.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
-        Transaction Advisory
-      </a>
-
-      <a href="digitsation.php"
-         class="block rounded 
-         <?= $current_page=='digitsation.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
-        Digitisation
-      </a>
-    </div>
+          <a href="digitsation.php"
+             class="block rounded mt-3
+             <?= $current_page=='digitsation.php' ? 'text-violet-600 font-semibold' : 'text-gray-600 hover:bg-gray-100'; ?>">
+            Digitisation
+          </a>
       </div>
+    </div>
+  </div>
         
 
 

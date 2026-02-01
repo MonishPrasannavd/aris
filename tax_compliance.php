@@ -20,11 +20,11 @@
     <section class="bg-white">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
             <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 text-center tracking-tight leading-snug">
-                Service Details</h1>
+                Tax Compliance & Tax Advisory Services</h1>
             <div class="mt-4 flex justify-center">
                 <div
                     class="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white px-4 py-1 text-sm text-gray-600">
-                    <p class="text-gray-900">Tax Compliance & Tax Advisory Services</p>
+                    <a href="tax.php" class="text-blue-600">Tax (Tax Compliance and Tax Planning)</a>
                     <span class="text-gray-400"><img src="Images/servicepage/breadcum.svg" alt=""></span>
                     <span class="text-blue-600 font-medium"><a href="transaction_advisory.php">Transaction advisory</a></span>
                 </div>
@@ -38,33 +38,12 @@
     <!-- Automation Services Section -->
     <section class="bg-white py-2 lg:py-2">
         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- Section Header -->
-            <div class="text-center mb-16">
-                <!-- <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                    Tax (Tax compliance & Tax Planning)
-                </h2> -->
-
-                <!-- Responsive Tabs -->
-                <div class="grid grid-cols-1 md:flex md:flex-wrap justify-center gap-3 mb-8">
-                    <!-- <button
-                        class="tab-button bg-blue-600 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none"
-                        data-tab="erp">
-                        Tax Compliance & Tax Advisory Services
-                    </button> -->
-                    <!-- <button
-                        class="tab-button bg-gray-100 text-gray-700 px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none"
-                        data-tab="hrms">
-                        Transaction advisory
-                    </button>
-                    <button class="tab-button bg-gray-100 text-gray-700 px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none" data-tab="crm">
-                        Digitsation - E Records
-                    </button> -->
-                    <!-- <button class="tab-button bg-gray-100 text-gray-700 px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-none" data-tab="yapp">
-                        YAPP – Your Automation Pain Point
-                    </button> -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+                <!-- Left side navigation -->
+                <div class="lg:col-span-1 order-last lg:order-first">
+                    <?php include 'includes/servicenav.php'; ?>
                 </div>
-                <!-- <hr class="max-w-full lg:max-w-[84.375rem] mx-auto"> -->
-            </div>
+            <div class="lg:col-span-3 order-first lg:order-last">
 
             <!-- Tab Content -->
             <div class="mb-16">
@@ -197,10 +176,10 @@
                                 class="rounded-2xl w-full h-full">
                         </div>
                     </div>
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-5">
+                    <div class="grid grid-cols-1 gap-8 lg:gap-5">
                         <!-- Left Section: ERP Services Description -->
 
-                        <div class="px-8 py-4 lg:px-12 mb-5">
+                        <div class="px-8 mb-5">
                             <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
                                 Who We Serve
                             </h3>
@@ -238,7 +217,7 @@
                             </div>
                         </div>
                         <!-- Right Section: ERP Platforms Supported -->
-                        <div class="px-8 py-4 lg:px-12 mb-5">
+                        <div class="px-8 mb-5">
 
                             <div class="space-y-4">
                                 <h3 class="text-3xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
@@ -248,7 +227,7 @@
                                     <ul class="ps-0">
                                         <li
                                             class="before:content-['✅'] before:mr-2 before:inline-block font-bold text-md mt-2 mb-2">
-                                            Deep Technical ExpertiseExpert Knowledge, Local & Global</li>
+                                            Expert Knowledge, Local & Global</li>
                                         <p class="text-gray-600 text-medium">
                                             Our team brings deep expertise in domestic and international tax
                                             regulations, helping you stay compliant wherever you do business.
@@ -968,6 +947,9 @@
                     </div>
                 </div>
             </div>
+            </div>
+            </div>
+
 
             <!-- Services Grid -->
         </div>
@@ -977,7 +959,7 @@
 
 
     <!-- Newsletter CTA + Scrolling Contact Band End -->
-    <section aria-label="Scrolling contact band" class="">
+    <!-- <section aria-label="Scrolling contact band" class="">
         <div class="relative bg-[#5956E9] text-white">
             <div class="absolute inset-0 opacity-20 pointer-events-none" style="
           background: radial-gradient(
@@ -1033,7 +1015,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Footer Start -->
      <?php include 'includes/footer.php'; ?>
     <!-- Footer End -->

@@ -13,14 +13,14 @@
 
 <body>
     <!-- Responsive Navbar Start -->
-     <?php include "includes/header.php" ?>
+     <?php include 'includes/header.php'; ?>
 
 
 
 
     <!-- Services: Hero -->
     <section id="services-hero" class="relative bg-white py-5 lg:py-14">
-        <div class="max-w-8xl mx-auto px-4 lg:px-20">
+        <div class="max-w-8xl mx-auto px-4">
             <!-- Header Area -->
             <div class="text-center mb-8 flex flex-col items-center">
                 <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-4">Our Services</h1>
@@ -56,7 +56,7 @@
                 <!-- Statistics Boxes -->
                 <!-- Left Box (Teal) -->
                 <div
-                    class="absolute left-0 lg:left-[.05rem] top-[73%] md:top-[95px] lg:top-[112px] transform -translate-y-1/2 bg-teal-500 text-white px-6 py-4 rounded-[25px] shadow-lg w-[190px] h-30">
+                    class="absolute left-0 lg:left-[.05rem] top-[73%] md:top-[95px] lg:top-[112px] transform -translate-y-1/2 bg-teal-500 text-white px-6 py-4 rounded-[25px] shadow-lg w-[180px] h-30">
                     <div class="text-center py-12 md:py-10 lg:py-12 px-2 lg:px-1">
                         <div class="text-3xl lg:text-4xl font-bold">145</div>
                         <div class="text-sm lg:text-base">Completed Projects</div>
@@ -65,7 +65,7 @@
 
                 <!-- Right Box (Blue) -->
                 <div
-                    class="absolute right-0 lg:right-[0.05rem] -bottom-[70px] md:-bottom-[95px] lg:-bottom-[105px] transform -translate-y-1/2 bg-blue-600 text-white px-6 py-4 rounded-[25px] shadow-lg w-[190px] h-30">
+                    class="absolute right-0 lg:right-[-0.1rem] -bottom-[70px] md:-bottom-[95px] lg:-bottom-[105px] transform -translate-y-1/2 bg-blue-600 text-white px-6 py-4 rounded-[25px] shadow-lg w-[180px] h-30">
                     <div class="text-center py-12 md:py-10 lg:py-12 px-1">
                         <div class="text-3xl lg:text-4xl font-bold">98%</div>
                         <div class="text-sm lg:text-base">Client Retention Rate</div>
@@ -137,7 +137,7 @@
 
 
     <!-- Newsletter CTA + Scrolling Contact Band End -->
-    <section aria-label="Scrolling contact band" class="">
+    <!-- <section aria-label="Scrolling contact band" class="">
         <div class="relative bg-[#5956E9] text-white">
             <div class="absolute inset-0 opacity-20 pointer-events-none" style="
           background: radial-gradient(
@@ -193,9 +193,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Footer Start -->
-    <?php include "includes/footer.php" ?>
+    <?php include 'includes/footer.php'; ?>
     <!-- Footer End -->
 
     <!-- Back To Top Button -->
