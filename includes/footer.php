@@ -17,11 +17,11 @@
               <rect id="Arsi2.jpeg_3x" data-name="Arsi2.jpeg@3x" width="267" height="35" fill="url(#pattern)" />
             </svg>
           </div>
-          <p class="text-white/80 max-w-xl mb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            qui laudantium cum ullam eius molestias eum tenetur at ut
-            voluptatem. Labore debitis est sit laboriosam aliquid! Vel,
-            debitis. Sed, quam?
+          <p class="text-white/80 text-sm max-w-xl mb-2">
+           Where Intelligence Drives Strategy and Strategy Drives Growth.
+          </p>
+          <p class="text-white/80 text-sm max-w-xl mb-6">
+           At the intersection of finance, technology, and strategy, we provide end-to-end consulting solutions tailored to modern businesses. We partner with businesses to simplify complexity and unlock growth.
           </p>
 
           <div class="flex flex-col sm:flex-row gap-4">

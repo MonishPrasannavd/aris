@@ -80,13 +80,13 @@
           & Advisory</span>
         <div id="typed-strings">
           <h1
-            class="text-white text-3xl md:text-5xl lg:text-6xl xl:text-5xl font-extrabold mb-8 lg:pe-[38rem] xxl:pe-[70rem]">
+            class="text-white text-3xl md:text-5xl lg:text-6xl xl:text-5xl font-extrabold mb-8 lg:pe-[35rem] xxl:pe-[70rem] leading-8">
             Where Intelligence Drives Strategy and Strategy Drives Growth.
           </h1>
 
         </div>
         <h1 id="typed"
-          class="text-white text-3xl md:text-5xl lg:text-6xl xl:text-5xl font-extrabold mb-5 lg:pe-[38rem] xxl:pe-[70rem]">
+          class="text-white text-3xl md:text-5xl lg:text-6xl xl:text-5xl font-extrabold mb-5 lg:pe-[35rem] xxl:pe-[70rem] leading-8">
         </h1>
         <!-- <p class="text-gray-200 text-sm md:text-lg mb-8 lg:pe-[38rem] sm:pe-0">
           Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam
@@ -108,7 +108,7 @@
           </li>
 
         </ul>
-        <a href="#"
+        <a href="service.php"
           class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg flex items-center text-lg transition">
           Get To Know Us More
           <i class="bi bi-arrow-right ms-2 font-bold mt-1"></i>
