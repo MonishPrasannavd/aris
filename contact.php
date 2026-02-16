@@ -53,7 +53,7 @@
                         </span>
                         <div>
                             <p class="text-xs uppercase tracking-wide text-gray-500">Send Us Mail</p>
-                            <p class="mt-1 text-gray-900 font-semibold">info@example.com</p>
+                            <p class="mt-1 text-gray-900 font-semibold">info@arsi-consulting.com</p>
                         </div>
                     </div>
                 </div>
@@ -62,11 +62,11 @@
                     <div class="flex items-start gap-4">
                         <span
                             class="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white ring-4 ring-white/50 shadow">
-                            <img src="Images/logo/location.svg" alt="Location" class="h-6 w-6">
+                            <img src="Images/logo/linkedin.svg" alt="Location" class="h-6 w-6">
                         </span>
                         <div>
-                            <!-- <p class="text-xs uppercase tracking-wide text-gray-500">Address</p> -->
-                            <p class="mt-1 text-gray-900 font-semibold leading-snug"><a href="#"></a></p>
+                            <!-- <p class="text-xs uppercase tracking-wide text-gray-500">Linkedin</p> -->
+                            <p class="mt-3 text-gray-900 font-semibold leading-snug"><a href="#">Our Linkedin Profile</a></p>
                         </div>
                     </div>
                 </div>

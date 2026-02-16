@@ -138,9 +138,9 @@
 
   <!-- Our Services Section Start -->
   <section id="services" class="max-w-8xl mx-auto mt-6 mb-12 px-4 lg:px-9 text-center">
-    <div class="relative rounded-[2rem] overflow-visible text-center">
-      <img src="./Images/homepage/service.webp" alt=""
-        class="absolute inset-0 w-full h-full object-cover rounded-[2rem] z-[-1] filter blur-sm" />
+    <div class="bg-[#000D2F] relative rounded-[2rem] overflow-visible text-center ">
+      <!-- <img src="./Images/homepage/service.webp" alt=""
+        class="absolute inset-0 w-full h-full object-cover rounded-[2rem] z-[-1] filter blur-sm" /> -->
       <div
         class="relative z-10 pt-0 pb-24 mb:pb-18 px-3 md:px-8 text-center flex flex-col items-center justify-center min-h-[550px] md:min-h-[460px] lg:min-h-[500px] text_center">
         <span
@@ -294,7 +294,7 @@
 
   <!-- Our Team Section Start -->
   <section id="team" class="max-w-7xl mx-auto mt-6 mb-6">
-    <div class="relative bg-[url('./Images/homepage/teambg.webp')] bg-cover bg-center overflow-hidden">
+    <div class="relative bg-[url('./Images/homepage/teambg.webp')] bg-cover bg-center overflow-hidden rounded-[2rem]">
       <div class="relative z-10 py-12 md:py-16 px-3 md:px-10">
         <div class="flex flex-col items-center text-center gap-4">
           <div class="min-w-3xl w-auto">
@@ -309,39 +309,51 @@
 
             </p>
           </div>
-          <div class="text-center min-w-[120px] w-auto">
+          <!-- <div class="text-center min-w-[120px] w-auto">
             <a href="team.php"
               class="inline-flex items-center gap-2 rounded-xl bg-[#1176BC] hover:bg-white/100 text-white hover:text-[#1176BC] px-4 py-2 border border-white/20 mb-10 md:mb-0">
               View All
               <i class="bi bi-arrow-up-right ms-2 mt-1 font-extrabold"></i>
-              <!-- <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M7 17L17 7M7 7h10v10" />
-              </svg> -->
+              </svg>
             </a>
-          </div>
+          </div> -->
         </div>
 
         <!-- Team Cards Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto md:mt-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto md:mt-10">
           <!-- Card 1 -->
           <div class="group relative rounded-2xl border border-white/20 bg-white/5 p-4 hover:bg-white/10 transition-all duration-300 shadow-sm hover:shadow-lg hover:scale-105">
-            <div class="w-full overflow-hidden rounded-xl mb-4 h-80 md:h-96">
+            <div class="w-full overflow-hidden rounded-xl mb-4 h-80 md:h-100">
               <img src="Images/our_team/revathi.jpg" alt="Ms. Revathi Gollapudi" class="w-full transition-transform duration-300 group-hover:scale-110" />
             </div>
             <div class="text-white text-left">
               <h3 class="font-semibold text-lg md:text-xl mb-1">Ms. Revathi Gollapudi</h3>
               <p class="text-gray-300 text-sm md:text-base">Founder</p>
+               <a href="team.php" class="text-gray-300 text-sm underline">Know More <i class="bi bi-arrow-right mt-1 font-extrabold"></i></a>
             </div>
           </div>
 
           <!-- Card 2 -->
           <div class="group relative rounded-2xl border border-white/20 bg-white/5 p-4 hover:bg-white/10 transition-all duration-300 shadow-sm hover:shadow-lg hover:scale-105">
-            <div class="w-full overflow-hidden rounded-xl mb-4 h-80 md:h-96">
+            <div class="w-full overflow-hidden rounded-xl mb-4 h-80 md:h-100">
               <img src="Images/our_team/prasad.webp" alt="Dr Prasad Saraswatula" class="w-full transition-transform duration-300 group-hover:scale-110" />
             </div>
             <div class="text-white text-left">
               <h3 class="font-semibold text-lg md:text-xl mb-1">Dr Prasad Saraswatula</h3>
               <p class="text-gray-300 text-sm md:text-base">Director</p>
+               <a href="team.php" class="text-gray-300 text-sm underline">Know More <i class="bi bi-arrow-right mt-1 font-extrabold"></i></a>
+            </div>
+          </div>
+           <div class="group relative rounded-2xl border border-white/20 bg-white/5 p-4 hover:bg-white/10 transition-all duration-300 shadow-sm hover:shadow-lg hover:scale-105">
+            <div class="w-full overflow-hidden rounded-xl mb-4 h-80 md:h-100">
+              <img src="Images/our_team/nagaraju.jpeg" alt="Nagaraju Avunuri" class="w-full transition-transform duration-300 group-hover:scale-110" />
+            </div>
+            <div class="text-white text-left">
+              <h3 class="font-semibold text-lg md:text-xl mb-1">CA. Nagaraju Avunuri</h3>
+              <p class="text-gray-300 text-sm md:text-base">Chartered Accountant</p>
+               <a href="team.php" class="text-gray-300 text-sm underline">Know More <i class="bi bi-arrow-right mt-1 font-extrabold"></i></a>
             </div>
           </div>
         </div>
@@ -476,8 +488,8 @@
                   <p class="text-[#06113C]/70 text-[0.75rem] font-semibold mb-2">
                     Send Us Mail
                   </p>
-                  <a href="mailto:info@example.com" class="text-[#06113C]">
-                    info@example.com
+                  <a href="mailto:info@arsi-consulting.com" class="text-[#06113C]">
+                    info@arsi-consulting.com
                   </a>
                 </div>
               </div>
@@ -494,8 +506,8 @@
                   <p class="text-[#06113C]/70 text-[0.75rem] font-semibold mb-2">
                     Call 24/7 Hours
                   </p>
-                  <a href="mailto:info@example.com" class="text-[#06113C]">
-                    info@example.com
+                  <a href="mailto:info@arsi-consulting.com" class="text-[#06113C]">
+                    info@arsi-consulting.com
                   </a>
                 </div>
               </div>

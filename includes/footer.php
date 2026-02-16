@@ -40,7 +40,7 @@
               </span>
               <div>
                 <p class="text-white/60 text-xs">Send Us Mail</p>
-                <a href="mailto:info@example.com" class="font-semibold">info@example.com</a>
+                <a href="mailto:info@arsi-consulting.com" class="font-semibold">info@arsi-consulting.com</a>
               </div>
             </div>
           </div>
@@ -86,8 +86,8 @@
           <h4 class="text-white font-semibold text-lg mb-4">Services</h4>
           <div class="grid grid-cols-2">
             <ul class="space-y-3">
-              <li class="text-white/80 text-sm"><a href="managed_services.php">Managed Services</a></li>
-              <li class="text-white/80 text-sm"><a href="advisory_consulting.php">Advisory / Consulting</a></li>
+              <!-- <li class="text-white/80 text-sm"><a href="managed_services.php">Managed Services</a></li> -->
+              <!-- <li class="text-white/80 text-sm"><a href="advisory_consulting.php">Advisory / Consulting</a></li> -->
               <li class="text-white/80 text-sm"><a href="accounting_outsourcing.php">Accounting Outsourcing</a></li>
               <li class="text-white/80 text-sm"><a href="payroll_outsourcing.php">Payroll Outsourcing</a></li>
               <li class="text-white/80 text-sm"><a href="financial_reporting.php">Financial Reporting</a></li>
@@ -96,12 +96,12 @@
               <li class="text-white/80 text-sm"><a href="erp.php">ERP Implementation</a></li>
             </ul>
             <ul class="space-y-3">
-              <li class="text-white/80 text-sm"><a href="automation.php">Automation</a></li>
-              <li class="text-white/80 text-sm"><a href="tax.php">Tax (Tax Compliance and Tax Planning)</a></li>
+              <!-- <li class="text-white/80 text-sm"><a href="automation.php">Automation</a></li> -->
+              <!-- <li class="text-white/80 text-sm"><a href="tax.php">Tax (Tax Compliance and Tax Planning)</a></li> -->
               <li class="text-white/80 text-sm"><a href="hrms.php">HRMS Implementation</a></li>
               <li class="text-white/80 text-sm"><a href="crm.php">CRM Implementation</a></li>
               <li class="text-white/80 text-sm"><a href="yapp.php">YAPP-Your Automation Pain Point</a></li>
-              <li class="text-white/80 text-sm"><a href="tax_compliance.php">Tax Compliance & Tax Advisory Services</a></li>
+              <li class="text-white/80 text-sm"><a href="tax_compliance.php">Tax Compliance & Tax Advisory</a></li>
               <li class="text-white/80 text-sm"><a href="transaction_advisory.php">Transaction Advisory</a></li>
               <li class="text-white/80 text-sm"><a href="digitsation.php">Digitsation- E Records</a></li>
             </ul>

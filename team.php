@@ -224,7 +224,7 @@
             
             <div class="shrink-0 rounded-2xl bg-[#f3f4ff] p-3 shadow-sm border border-gray-200 w-full md:w-auto">
               <img src="Images/our_team/revathi.jpg" alt="Client photo"
-                class="h-56 w-full md:w-60 md:h-60 lg:w-64 lg:h-80 object-cover rounded-xl" />
+                class="h-100 w-full md:w-60 md:h-60 lg:w-64 lg:h-80 object-cover rounded-xl" />
                 <h3 class="text-violet-900 font-bold text-xl mt-2">Ms. Revathi Gollapudi</h3>
                 <div class="flex items-center justify-start space-x-3">
                 <!-- <p class="text-gray-900 text-sm">Founder</p> -->
@@ -343,7 +343,7 @@
 
 
     <!-- Team Members Section Start -->
-    <section class="py-16 lg:py-24 bg-white">
+    <section class="py-16 bg-white">
         <div class="max-w-9xl mx-auto px-4 lg:px-20">
             <!-- Section Header -->
             <div class="text-center mb-16">
@@ -355,7 +355,7 @@
             
             <div class="shrink-0 rounded-2xl bg-[#f3f4ff] p-3 shadow-sm border border-gray-200 w-full md:w-auto">
               <img src="Images/our_team/prasad.webp" alt="Client photo"
-                class="h-56 w-full md:w-60 md:h-60 lg:w-64 lg:h-80 object-cover rounded-xl" />
+                class="h-100 w-full md:w-60 md:h-60 lg:w-64 lg:h-80 object-cover rounded-xl" />
                 <h3 class="text-violet-900 font-bold text-xl mt-2">Dr. Prasad Saraswatula</h3>
                 <div class="flex items-center justify-start space-x-3">
                 <!-- <p class="text-gray-900 text-sm">Founder</p> -->
@@ -556,6 +556,57 @@
                     </div>
                 </div>
             </div> -->
+        </div>
+    </section>
+    <!-- Team Members Section End -->
+     <!-- Team Members Section Start -->
+    <section class="py-16 bg-white">
+        <div class="max-w-9xl mx-auto px-4 lg:px-20">
+            <!-- Section Header -->
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Our Chartered Accountant</h2>
+                <!-- <p class="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto">Smart solution to build a outstanding
+                    performance easily.</p> -->
+            </div>
+            <div class="flex flex-col md:flex-row items-stretch gap-4 md:gap-6">
+            
+            <div class="shrink-0 rounded-2xl bg-[#f3f4ff] p-3 shadow-sm border border-gray-200 w-full md:w-auto">
+              <img src="Images/our_team/nagaraju.jpeg" alt="Client photo"
+                class="h-100 w-full md:w-60 md:h-60 lg:w-64 lg:h-80 object-cover rounded-xl" />
+                <h3 class="text-violet-900 font-bold text-xl mt-2">CA. Nagaraju Avunuri</h3>
+                <div class="flex items-center justify-start space-x-3">
+                <p class="text-gray-900 text-sm">B.Com, FCA, ISA (ICAI)</p>
+                <!-- <a href="https://www.linkedin.com/in/dr-sp-85013844/" target="_blank" class="flex items-center space-x-2 text-blue-600 hover:text-blue-700 transition-colors">
+                                <i class="bi bi-linkedin text-[1.25rem]"></i> -->
+                </a>
+                </div>
+                
+            </div>
+       
+            <div class="relative flex-1 rounded-2xl bg-[#F3F4FF] p-5 md:p-6 lg:p-8 border border-gray-200 text-left">
+              
+              <span
+                class="hidden md:block absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 h-8 w-4 bg-[#F3F4FF] rounded-xl border border-gray-200"></span>
+           
+              <svg class="absolute top-4 right-4 w-8 h-8 text-[#F26727]" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M10 7H6a1 1 0 0 0-1 1v8h4v-6h1a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1zm9 0h-4a1 1 0 0 0-1 1v8h4v-6h1a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1z" />
+              </svg>
+             
+              <p class="text-gray-700 text-sm leading-6 mb-3">
+                    <b> CA. Nagaraju Avunuri is a Fellow Member of the Institute of Chartered Accountants of India (ICAI) with over 7 years of professional experience in Direct Tax advisory, GST consultancy, and corporate compliance. He has extensively advised individuals, startups, SMEs, LLPs, and corporate entities across diverse industries, delivering solutions that are practical, compliant, and aligned with business objectives.</b>
+              </p>
+              <p class="text-gray-700 text-sm leading-6 mb-3">
+                    <b> His professional expertise includes tax planning and statutory compliance under the Income-tax Act, representation before tax authorities, handling assessments, appeals, and scrutiny proceedings, and providing strategic advisory on complex taxation matters. As an Information Systems Audit (ISA) qualified professional, he brings a technology-driven and process-oriented approach to audits and advisory engagements.</b>
+              </p>
+              <p class="text-gray-700 text-sm leading-6">
+                    <b> Recognized for his strong analytical capabilities, practical insights, and client-focused approach, CA. Nagaraju Avunuri consistently delivers value-added solutions by integrating technical expertise with commercial understanding, enabling clients to achieve regulatory compliance and sustainable growth. He has also successfully completed the Artificial Intelligence (AI) – AICA Level 1 certification conducted by ICAI, reflecting his commitment to embracing emerging technologies in the accounting and advisory profession.</b>
+              </p>
+                  
+            </div>
+          </div>
+          
         </div>
     </section>
     <!-- Team Members Section End -->
